@@ -1,0 +1,79 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DesignerCustomizationType": "Public Sector Assessment",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "Senior_Software_Engineer_Interview_5",
+    "OmniProcessId": {
+        "Name": "Interview Questions for Senior Software Engineer",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Recruitment/SeniorSoftwareEngineer/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Senior_Software_Engineer_Interview_5_block",
+        "OmniProcessId": {
+            "Name": "Interview Questions for Senior Software Engineer",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Recruitment/SeniorSoftwareEngineer/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Recruitment/SeniorSoftwareEngineer/English/Senior_Software_Engineer_Interview_5_block",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Senior_Software_Engineer_Interview_5_block",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": false,
+        "imageCountInRow": 3,
+        "label": "Are you willing to undergo a background check as part of our hiring process?",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "developerName": "Yes",
+                "name": "Yes",
+                "setAll": false,
+                "value": "Yes"
+            },
+            {
+                "developerName": "No",
+                "name": "No",
+                "setAll": false,
+                "value": "No"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null
+    },
+    "Type": "Radio",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Recruitment/SeniorSoftwareEngineer/English/Senior_Software_Engineer_Interview_5"
+}

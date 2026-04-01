@@ -1,0 +1,93 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetValues10",
+    "OmniProcessId": {
+        "Name": "Organic Crop Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/OrganicCropApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "OrganicSeedSeedingUsed",
+        "OmniProcessId": {
+            "Name": "Organic Crop Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/OrganicCropApplication/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/OrganicCropApplication/English/OrganicSeedSeedingUsed",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "OrganicSeedSeedingUsed",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 1,
+        "elementValueMap": {
+            "OrganicSeedSeedingUsed": {
+                "SeedSeedings": [
+                    {
+                        "DatePlanted": "2021-05-03",
+                        "GMOStatus": "Non-GMO",
+                        "LocationPlanted": "Field 1110",
+                        "NumberorWeight": "1966 lbs",
+                        "OrganicStatus": "Organic",
+                        "SeedorSeedling": "Seed",
+                        "TreatmentStatus": "Non-Treated",
+                        "VarietySource": "HO Safflower/Farm"
+                    },
+                    {
+                        "DatePlanted": "2021-06-10",
+                        "GMOStatus": "Non-GMO",
+                        "LocationPlanted": "Field 14110",
+                        "NumberorWeight": "9362 lbs",
+                        "OrganicStatus": "Organic",
+                        "SeedorSeedling": "Seed",
+                        "TreatmentStatus": "Non-Treated",
+                        "VarietySource": "HO Safflower/Farm"
+                    },
+                    {
+                        "DatePlanted": "2021-05-17",
+                        "GMOStatus": "Non-GMO",
+                        "LocationPlanted": "Field 7200",
+                        "NumberorWeight": "5115 lbs",
+                        "OrganicStatus": "Organic",
+                        "SeedorSeedling": "Seed",
+                        "TreatmentStatus": "Non-Treated",
+                        "VarietySource": "HO Safflower/Farm"
+                    },
+                    {
+                        "DatePlanted": "2021-05-06",
+                        "GMOStatus": "Non-GMO",
+                        "LocationPlanted": "Field 14100",
+                        "NumberorWeight": "396141 lbs",
+                        "OrganicStatus": "Organic",
+                        "SeedorSeedling": "Seed",
+                        "TreatmentStatus": "Non-Treated",
+                        "VarietySource": "Juniper Wheat/Farm"
+                    }
+                ]
+            }
+        },
+        "label": ">>>",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/OrganicCropApplication/English/SetValues10"
+}

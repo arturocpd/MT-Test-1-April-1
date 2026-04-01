@@ -1,0 +1,25 @@
+{
+    "CurrencyIsoCode": "USD",
+    "EmbeddedOmniScriptKey": "Recruitment|ApplicantResume|English",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "ApplicantResume",
+    "OmniProcessId": {
+        "Name": "Job Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Recruitment/JobApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "Language": "English",
+        "Sub Type": "ApplicantResume",
+        "Type": "Recruitment",
+        "show": null
+    },
+    "Type": "OmniScript",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Recruitment/JobApplication/English/ApplicantResume"
+}

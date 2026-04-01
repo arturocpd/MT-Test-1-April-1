@@ -1,0 +1,42 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "TextBlock2",
+    "OmniProcessId": {
+        "Name": "Licensing and Permitting Security Guard Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/SecurityGuard/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ApplicantAffirmation",
+        "OmniProcessId": {
+            "Name": "Licensing and Permitting Security Guard Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/SecurityGuard/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/SecurityGuard/English/ApplicantAffirmation",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ApplicantAffirmation",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock2",
+        "sanitize": false,
+        "show": null,
+        "text": "<p>I affirm, under the penalties of perjury, that the statements made in this application are true and correct. I further affirm that I have read and understand the provisions of Article 7A of the General Business Law and the rules and regulations promulgated thereunder. In addition, I hereby authorize the Department of State and Department of Motor Vehicles to produce an ID card bearing my DMV photo. I understand that DOS and DMV will use my DMV photo to produce all subsequent ID cards for as long as I maintain my license with the Department of State.</p>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/SecurityGuard/English/TextBlock2"
+}

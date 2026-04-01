@@ -1,0 +1,55 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "PatientAddress",
+    "OmniProcessId": {
+        "Name": "Patient Medical Cannabis",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/CannabisPatientApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "PatientInformation",
+        "OmniProcessId": {
+            "Name": "Patient Medical Cannabis",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/CannabisPatientApplication/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/CannabisPatientApplication/English/PatientInformation",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "PatientInformation",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "bStandalone": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "customAttributes": [
+            {
+                "name": "label",
+                "source": "Patient Address"
+            },
+            {
+                "name": "labelprefix",
+                "source": "Patient"
+            },
+            {
+                "name": "prefilladdress",
+                "source": "%PrefillPatientAddress%"
+            }
+        ],
+        "hide": false,
+        "label": "PatientAddress",
+        "lwcName": "gpsOmniscriptAddressLookup",
+        "show": null
+    },
+    "Type": "Custom Lightning Web Component",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/CannabisPatientApplication/English/PatientAddress"
+}

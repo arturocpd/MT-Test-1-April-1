@@ -1,0 +1,39 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetAddressValuesForSave",
+    "OmniProcessId": {
+        "Name": "Application for Aging / Disability Services",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Benefits/Application/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "SaveCity": "=IF(%AddressLookup%==null,%PrepopulateCity%,%AddressLookup:City%)",
+            "SavePostalCode": "=IF(%AddressLookup%==null,%PrepopulatePostalCode%,%AddressLookup:PostalCode%)",
+            "SaveState": "=IF(%AddressLookup%==null,%PrepopulateState%,%AddressLookup:Province%)",
+            "SaveStreet": "=IF(%AddressLookup%==null,%PrepopulateStreet%,%AddressLookup:Street%)"
+        },
+        "label": "SetAddressValuesForSave",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Benefits/Application/Multi-Language/SetAddressValuesForSave"
+}

@@ -1,0 +1,41 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "DateofBirth",
+    "OmniProcessId": {
+        "Name": "Boat Registration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermiting/BoatRegistration/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "OwnerInformation",
+        "OmniProcessId": {
+            "Name": "Boat Registration",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermiting/BoatRegistration/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermiting/BoatRegistration/English/OwnerInformation",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "OwnerInformation",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "label": "Date of Birth",
+        "readOnly": false,
+        "repeatClone": false,
+        "required": true
+    },
+    "Type": "Date",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermiting/BoatRegistration/English/DateofBirth"
+}

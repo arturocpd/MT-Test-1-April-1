@@ -1,0 +1,96 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "Race",
+    "OmniProcessId": {
+        "Name": "Licensing and Permitting Firearm Registration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermiting/FirearmRegistration/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ApplicantInformation",
+        "OmniProcessId": {
+            "Name": "Licensing and Permitting Firearm Registration",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermiting/FirearmRegistration/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermiting/FirearmRegistration/English/ApplicantInformation",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ApplicantInformation",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 4,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": false,
+        "imageCountInRow": 3,
+        "label": "Race",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "White",
+                "value": "White"
+            },
+            {
+                "autoAdv": null,
+                "name": "Black or African American",
+                "value": "Black or African American"
+            },
+            {
+                "autoAdv": null,
+                "name": "American Indian or Alaska Native",
+                "value": "American Indian or Alaska Native"
+            },
+            {
+                "autoAdv": null,
+                "name": "Asian",
+                "value": "Asian"
+            },
+            {
+                "autoAdv": null,
+                "name": "Native Hawaiian or Other Pacific Islander",
+                "value": "Native Hawaiian or Other Pacific Islander"
+            },
+            {
+                "autoAdv": null,
+                "name": "Other",
+                "value": "Other"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermiting/FirearmRegistration/English/Race"
+}

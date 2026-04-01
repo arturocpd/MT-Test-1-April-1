@@ -1,0 +1,12 @@
+[
+    "DataRaptor/CreateActionPlan",
+    "DataRaptor/CreateApplicationForm",
+    "DataRaptor/CreateApplicationFormRelation",
+    "DataRaptor/GetActionPlanTemplateID",
+    "DataRaptor/GetActionPlanTemplateVersionID",
+    "DataRaptor/GetApplicantAccountID",
+    "DataRaptor/GetRecruitmentRequisitionID",
+    "DataRaptor/TestGetApplicantAccount",
+    "DataRaptor/TestGetUserAccountID",
+    "IntegrationProcedure/GPSTalentRecruitment_ScoreApplications"
+]

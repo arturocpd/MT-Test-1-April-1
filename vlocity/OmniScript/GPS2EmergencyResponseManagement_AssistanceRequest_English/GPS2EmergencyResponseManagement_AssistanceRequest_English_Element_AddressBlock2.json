@@ -1,0 +1,45 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "AddressBlock2",
+    "OmniProcessId": {
+        "Name": "GPS2-EmergencyAssistanceRequest",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GPS2EmergencyResponseManagement/AssistanceRequest/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "WellBeingCheck",
+        "OmniProcessId": {
+            "Name": "GPS2-EmergencyAssistanceRequest",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/GPS2EmergencyResponseManagement/AssistanceRequest/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/GPS2EmergencyResponseManagement/AssistanceRequest/English/WellBeingCheck",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "WellBeingCheck",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "collapse": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "hide": false,
+        "label": "Address",
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "show": null
+    },
+    "Type": "Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GPS2EmergencyResponseManagement/AssistanceRequest/English/AddressBlock2"
+}

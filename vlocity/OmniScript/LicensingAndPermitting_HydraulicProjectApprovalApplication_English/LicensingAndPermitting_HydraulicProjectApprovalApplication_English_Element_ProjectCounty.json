@@ -1,0 +1,189 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "ProjectCounty",
+    "OmniProcessId": {
+        "Name": "Hydraulic Project Approval Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ProjectLocationStep",
+        "OmniProcessId": {
+            "Name": "Hydraulic Project Approval Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English/ProjectLocationStep",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ProjectLocationStep",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 4,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "helpTextPos": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "County",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "Adams",
+                "value": "Adams"
+            },
+            {
+                "autoAdv": null,
+                "name": "Asotin",
+                "value": "Asotin"
+            },
+            {
+                "autoAdv": null,
+                "name": "Benton",
+                "value": "Benton"
+            },
+            {
+                "autoAdv": null,
+                "name": "Chelan",
+                "value": "Chelan"
+            },
+            {
+                "autoAdv": null,
+                "name": "Clallam",
+                "value": "Clallam"
+            },
+            {
+                "autoAdv": null,
+                "name": "Clark",
+                "value": "Clark"
+            },
+            {
+                "autoAdv": null,
+                "name": "Columbia",
+                "value": "Columbia"
+            },
+            {
+                "autoAdv": null,
+                "name": "Cowitz",
+                "value": "Cowitz"
+            },
+            {
+                "autoAdv": null,
+                "name": "Douglas",
+                "value": "Douglas"
+            },
+            {
+                "autoAdv": null,
+                "name": "Ferry",
+                "value": "Ferry"
+            },
+            {
+                "autoAdv": null,
+                "name": "Franklin",
+                "value": "Franklin"
+            },
+            {
+                "autoAdv": null,
+                "name": "Garfield",
+                "value": "Garfield"
+            },
+            {
+                "autoAdv": null,
+                "name": "Grant",
+                "value": "Grant"
+            },
+            {
+                "autoAdv": null,
+                "name": "Greys Harbor",
+                "value": "Greys Harbor"
+            },
+            {
+                "autoAdv": null,
+                "name": "Island",
+                "value": "Island"
+            },
+            {
+                "autoAdv": null,
+                "name": "Jefferson",
+                "value": "Jefferson"
+            },
+            {
+                "autoAdv": null,
+                "name": "King",
+                "value": "King"
+            },
+            {
+                "autoAdv": null,
+                "name": "Kitsap",
+                "value": "Kitsap"
+            },
+            {
+                "autoAdv": null,
+                "name": "Kititas",
+                "value": "Kititas"
+            },
+            {
+                "autoAdv": null,
+                "name": "Lincoln",
+                "value": "Lincoln"
+            },
+            {
+                "autoAdv": null,
+                "name": "Mason",
+                "value": "Mason"
+            },
+            {
+                "autoAdv": null,
+                "name": "Pacific",
+                "value": "Pacific"
+            },
+            {
+                "autoAdv": null,
+                "name": "Spokane",
+                "value": "Spokane"
+            },
+            {
+                "autoAdv": null,
+                "name": "King",
+                "value": "King"
+            },
+            {
+                "autoAdv": null,
+                "name": "Yakima",
+                "value": "Yakima"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English/ProjectCounty"
+}

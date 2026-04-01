@@ -1,0 +1,54 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "ProofOfIncome",
+    "OmniProcessId": {
+        "Name": "Children with Disabilities Family Support",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/HHS/IntegratedEligibility/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Employment Income",
+        "OmniProcessId": {
+            "Name": "Children with Disabilities Family Support",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/HHS/IntegratedEligibility/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/HHS/IntegratedEligibility/English/Employment Income",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Employment Income",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "conditionType": "Hide if False",
+        "contentParentId": [
+            "%DRId_Case%"
+        ],
+        "controlWidth": 12,
+        "errorMessage": {
+            "custom": [
+            ]
+        },
+        "extraPayload": {
+        },
+        "help": false,
+        "helpText": "",
+        "label": "Please upload any proof of income (ex. Paystubs)",
+        "remoteClass": "",
+        "remoteMethod": "",
+        "remoteOptions": {
+        },
+        "uploadContDoc": true
+    },
+    "Type": "File",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/HHS/IntegratedEligibility/English/ProofOfIncome"
+}

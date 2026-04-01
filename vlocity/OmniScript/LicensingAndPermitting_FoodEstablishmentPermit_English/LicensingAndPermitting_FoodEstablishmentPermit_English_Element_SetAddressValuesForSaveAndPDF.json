@@ -1,0 +1,53 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": true,
+    "MayEdit": true,
+    "Name": "SetAddressValuesForSaveAndPDF",
+    "OmniProcessId": {
+        "Name": "Food Establishment Permit Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/FoodEstablishmentPermit/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "SaveEstablishmentAddress": "=IF(%EstablishmentAddress%==null,%PrepopulateAddress%,%EstablishmentAddress:Address%)",
+            "SaveEstablishmentCity": "=IF(%EstablishmentAddress%==null,%PrepopulateCity%,%EstablishmentAddress:City%)",
+            "SaveEstablishmentCountry": "=IF(%EstablishmentAddress%==null,%PrepopulateCountry%,%EstablishmentAddress:Country%)",
+            "SaveEstablishmentPostalCode": "=IF(%EstablishmentAddress%==null,%PrepoulatePostalCode%,%EstablishmentAddress:PostalCode%)",
+            "SaveEstablishmentState": "=IF(%EstablishmentAddress%==null,%PrepopulateState%,%EstablishmentAddress:Province%)",
+            "SaveEstablishmentStreet": "=IF(%ResponsibleAddress%==null,%PrepopulateStreet%,%ResponsibleAddress:Street%)",
+            "SaveInspectionAStreet": "=IF(%InspectionAddress%==null,%PrepopulateStreet%,%InspectionAddress:Street%)",
+            "SaveInspectionAddress": "=IF(%InspectionAddress%==null,%PrepopulateAddress%,%InspectionAddress:Address%)",
+            "SaveInspectionCity": "=IF(%InspectionAddress%==null,%PrepopulateCity%,%InspectionAddress:City%)",
+            "SaveInspectionCountry": "=IF(%InspectionAddress%==null,%PrepopulateCountry%,%InspectionAddress:Country%)",
+            "SaveInspectionPostalCode": "=IF(%InspectionAddress%==null,%PrepoulatePostalCode%,%InspectionAddress:PostalCode%)",
+            "SaveInspectionState": "=IF(%InspectionAddress%==null,%PrepopulateState%,%InspectionAddress:Province%)",
+            "SaveResponsibleAddress": "=IF(%ResponsibleAddress%==null,%PrepopulateAddress%,%ResponsibleAddress:Address%)",
+            "SaveResponsibleCity": "=IF(%ResponsibleAddress%==null,%PrepopulateCity%,%ResponsibleAddress:City%)",
+            "SaveResponsibleCountry": "=IF(%ResponsibleAddress%==null,%PrepopulateCountry%,%ResponsibleAddress:Country%)",
+            "SaveResponsiblePostalCode": "=IF(%ResponsibleAddress%==null,%PrepoulatePostalCode%,%ResponsibleAddress:PostalCode%)",
+            "SaveResponsibleState": "=IF(%ResponsibleAddress%==null,%PrepopulateState%,%ResponsibleAddress:Province%)",
+            "SaveResponsibleStreet": "=IF(%ResponsibleAddress%==null,%PrepopulateStreet%,%ResponsibleAddress:Street%)"
+        },
+        "label": "SetAddressValuesForSaveAndPDF",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/FoodEstablishmentPermit/English/SetAddressValuesForSaveAndPDF"
+}

@@ -1,0 +1,67 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetValues4",
+    "OmniProcessId": {
+        "Name": "DOT SF-425 Financial Reporting",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/DOTGrants/FinancialReport/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "EditBlkIndirectExpenditures",
+        "OmniProcessId": {
+            "Name": "DOT SF-425 Financial Reporting",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/DOTGrants/FinancialReport/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/DOTGrants/FinancialReport/English/EditBlkIndirectExpenditures",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "EditBlkIndirectExpenditures",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 1,
+        "elementValueMap": {
+            "EditIndirectExpenses": [
+                {
+                    "edit_IndirectBase": "%TransExpend_Authorized%",
+                    "edit_IndirectFedShare": "%TransExpend_Authorized%",
+                    "edit_IndirectPeriodFrom": "2025-01-10",
+                    "edit_IndirectPeriodTo": "2025-03-01",
+                    "edit_IndirectRate": 8,
+                    "edit_IndirectType": "Provisional"
+                },
+                {
+                    "edit_IndirectBase": "%TransExpend_Authorized%",
+                    "edit_IndirectFedShare": "%TransExpend_Authorized%",
+                    "edit_IndirectPeriodFrom": "2025-02-01",
+                    "edit_IndirectPeriodTo": "2025-02-28",
+                    "edit_IndirectRate": 5,
+                    "edit_IndirectType": "Provisional"
+                }
+            ]
+        },
+        "label": ">>",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/DOTGrants/FinancialReport/English/SetValues4"
+}

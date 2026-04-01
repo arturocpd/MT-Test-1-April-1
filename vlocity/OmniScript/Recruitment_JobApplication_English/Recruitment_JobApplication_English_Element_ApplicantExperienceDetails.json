@@ -1,0 +1,25 @@
+{
+    "CurrencyIsoCode": "USD",
+    "EmbeddedOmniScriptKey": "Recruitment|ApplicantExperienceDetails|English",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "ApplicantExperienceDetails",
+    "OmniProcessId": {
+        "Name": "Job Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Recruitment/JobApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "Language": "English",
+        "Sub Type": "ApplicantExperienceDetails",
+        "Type": "Recruitment",
+        "show": null
+    },
+    "Type": "OmniScript",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Recruitment/JobApplication/English/ApplicantExperienceDetails"
+}

@@ -1,0 +1,13 @@
+[
+    "DataRaptor/DRAddheadOfHouseholdAsSelf",
+    "DataRaptor/DRGetHouseholdBenefitsAssessment",
+    "DataRaptor/PSSCheckUserType3",
+    "DataRaptor/PSSExpCloudCreatePreliminaryApplicationReferenceFromAssessment1",
+    "DataRaptor/PSSExpCloudMapBenefitAssessmentResponseToPDF1",
+    "DataRaptor/PSSExpCloudPrepareApplicationDataForReview1",
+    "DataRaptor/PSSFetchIndividualApplicationStatus1",
+    "DataRaptor/PSSFetchReturnedToApplicantStatus3",
+    "ExpressionSet/PSSExpCloud_CalculateBenefitAmount",
+    "IntegrationProcedure/BenefitManagement_CreateIndividualApplicationAndRelatedRecords",
+    "IntegrationProcedure/BenefitManagement_ModifyReturnedIndividualApplication"
+]

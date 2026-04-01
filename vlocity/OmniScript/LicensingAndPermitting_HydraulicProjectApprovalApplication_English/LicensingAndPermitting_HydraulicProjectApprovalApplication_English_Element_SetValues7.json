@@ -1,0 +1,59 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetValues7",
+    "OmniProcessId": {
+        "Name": "Hydraulic Project Approval Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ProjectLocationStep",
+        "OmniProcessId": {
+            "Name": "Hydraulic Project Approval Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English/ProjectLocationStep",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ProjectLocationStep",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 1,
+        "elementValueMap": {
+            "PrefillAddress": "1401 N Meridian Ave, Puyallup, WA, 98371",
+            "ProjectAddress": "1401 N Meridian Ave",
+            "ProjectDrivingDirections": "Across from Pioneer Park",
+            "ProjectEndDate": "2023-09-02",
+            "ProjectParcelNumber": "21-100",
+            "ProjectSiteName": "Pioneer Park Bridge",
+            "ProjectStartDate": "2023-09-01",
+            "ProjectTownship": "20 N",
+            "ProjectWRIA": "10 - Puyallup - White",
+            "Within100yearfloodplain": "Yes"
+        },
+        "label": ">>>",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English/SetValues7"
+}

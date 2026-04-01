@@ -1,0 +1,5 @@
+[
+    "DataRaptor/PSSCreateBenefitAssignmentAdjustment1",
+    "DataRaptor/PSSFetchBenefitProgram1",
+    "IntegrationProcedure/BenefitManagement_DetermineBenefitAssignmentAdjustmentLogs"
+]

@@ -1,0 +1,43 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DesignerCustomizationType": "Discovery Framework",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "Opioid_Instructions",
+    "OmniProcessId": {
+        "Name": "Opioid Risk Assessment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Risk/Assessment/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Step1",
+        "OmniProcessId": {
+            "Name": "Opioid Risk Assessment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Risk/Assessment/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Risk/Assessment/English/Step1",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Step1",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "This tool should be administered to patients upon an initial visit prior to beginning opioid therapy for pain management. A score of 3 or lower indicates low risk for future opioid abuse, a score of 4 to 7 indicates moderate risk for opioid abuse, and a score of 8 or higher indicates a high risk for opioid abuse.",
+        "sanitize": false,
+        "show": null,
+        "text": "This tool should be administered to patients upon an initial visit prior to beginning opioid therapy for pain management. A score of 3 or lower indicates low risk for future opioid abuse, a score of 4 to 7 indicates moderate risk for opioid abuse, and a score of 8 or higher indicates a high risk for opioid abuse.",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Risk/Assessment/English/Opioid_Instructions"
+}

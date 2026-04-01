@@ -1,0 +1,46 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": true,
+    "MayEdit": true,
+    "Name": "Disclosure1",
+    "OmniProcessId": {
+        "Name": "Food Establishment Permit Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/FoodEstablishmentPermit/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Disclaimer",
+        "OmniProcessId": {
+            "Name": "Food Establishment Permit Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/FoodEstablishmentPermit/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/FoodEstablishmentPermit/English/Disclaimer",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Disclaimer",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "checkLabel": "I agree the application is true and correct.",
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "hide": false,
+        "label": "",
+        "readOnly": false,
+        "required": true,
+        "show": null,
+        "text": "<p class=\"p1\"><strong>No persons shall commence construction unless the required plans have been approved. It shall be the full responsibility of said person that construction is done in conformance with the approved plans and specifications.<span class=\"Apple-converted-space\">&nbsp;</span></strong></p>\n<div class=\"p2\">&nbsp;</div>\n<p class=\"p2\">The approval of plans and specifications shall lapse and become invalid one year from the date of approval unless a substantial portion of the work described in the plans and specifications has commenced by such anniversary date. An approval of plans and specifications can be renewed for one year if an application for renewal is submitted within 180 days prior to expiration and a fee equal to one-half (1/2) of the flat fee or initial plan review fee is paid. The approval will be effective for one year from the date of expiration.<span class=\"Apple-converted-space\">&nbsp;</span></p>\n<div class=\"p2\">&nbsp;</div>\n<p class=\"p2\">Should it be necessary or desirable to make any material change in the approved plans and specifications, revised plans and specifications shall be submitted to the department for review, and approval shall be obtained before the work affected by the change is undertaken. Once submitted, the plans will be review for compliance with the&nbsp;County Environmental Health code (MCEHC). A response letter will be drafted and delivered to the applicant using the method indicated on the application. The letter will indicate items of noncompliance that need to be addressed during the construction of the establishment.<span class=\"Apple-converted-space\">&nbsp;</span></p>\n<div class=\"p2\">&nbsp;</div>\n<p class=\"p2\">Approval of these plans and specifications by this Regulatory Authority does not indicate compliance with any other code, law or regulation that may be required federal, state, or local. It further does not constitute endorsement or acceptance of the completed establishment (structure or equipment). A pre-opening inspection and final inspection of the establishment with equipment in place and operating will be necessary to determine if it complies with the&nbsp;County Environmental Health Code governing establishments.<span class=\"Apple-converted-space\">&nbsp;</span></p>\n<div class=\"p2\">&nbsp;</div>\n<p class=\"p2\">Approval of a permit by this Department does not indicate compliance with any other code, law, or regulation that may be required - federal, state, or local. In order to ensure compliance with local mechanical and building codes, obtain a Certificate-of- Occupancy &ldquo;C-of-O&rdquo; from the local municipality or &ldquo;Green Tag&rdquo; from the local fire department, if required.<span class=\"Apple-converted-space\">&nbsp;</span></p>\n<div class=\"p2\">&nbsp;</div>\n<p class=\"p2\">A &ldquo;grandfather&rdquo; clause or provision is not provided for in County Environmental Health Code. All establishments under new ownership, newly built, or remodeled shall meet current construction, equipment, facility, and operational regulations as adopted and provided for in the&nbsp;County Environmental Health Code, guidelines, and procedures, and policy statements. A permit shall not be issued to a facility for which a permit is required, and shall not be allowed to operate until the applicant demonstrates to the Department full compliance with applicable provisions of the County Environmental Health Code. Any construction, alteration, or addition shall be made in accordance with specifications approved by the Department. The owner, operator, or authorized agent shall certify in writing that the establishment will comply with these regulations. On-site inspections of the facilities and premises with equipment in place and operating will be necessary to determine compliance with the&nbsp;County Environmental Health Code.<span class=\"Apple-converted-space\">&nbsp;</span></p>\n<div class=\"p2\">&nbsp;</div>\n<p class=\"p2\"><strong>Delivery of Inspection Reports<span class=\"Apple-converted-space\">&nbsp;</span></strong></p>\n<p class=\"p2\">Pursuant to R.S. &sect; 41-1009, the Department may enter your establishment to conduct inspections. You have the right to receive a copy of the Department's inspection report at the time of the inspection, within thirty (30) days after the inspection, or as otherwise provided by federal law. I agree that the Department may send me a copy of its inspection report by e-mail or by facsimile transmission to the e-mail or fax number provided under the Business Ownership Information provided above. It is the responsibility of the permit holder to update the Department if there is a change in contact information.<span class=\"Apple-converted-space\">&nbsp;</span></p>\n<div class=\"p2\">&nbsp;</div>\n<p class=\"p2\">I hereby certify that the above information is correct, agree to comply with the&nbsp;County Environmental Health Code, agree to allow the regulatory authority access to the establishment as specified under &sect; 8-402.11 and to the records specified under &sect;&sect; 3-203.12 and 5-205.13 and Subparagraph 8-201.14(D)(6), and I fully understand that any deviation from the above without prior permission from the&nbsp;County Environmental Services Department may nullify final approval.<span class=\"Apple-converted-space\">&nbsp;</span></p>\n<div class=\"p2\">&nbsp;</div>\n<p class=\"p2\"><strong>Disclaimer<span class=\"Apple-converted-space\">&nbsp;</span></strong></p>\n<p class=\"p2\">Information entered on this form will be retained by Environmental Services Department and is a record as defined by State law. This form will be provided without redaction in response to a public record request unless any of the information is exempt from release under State law.<span class=\"Apple-converted-space\">&nbsp;</span></p>\n<div class=\"p2\">&nbsp;</div>\n<p class=\"p2\">By checking the check box you have digitally signed this application.<span class=\"Apple-converted-space\">&nbsp;</span></p>",
+        "textKey": ""
+    },
+    "Type": "Disclosure",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/FoodEstablishmentPermit/English/Disclosure1"
+}

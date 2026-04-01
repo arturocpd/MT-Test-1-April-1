@@ -1,0 +1,44 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "GotoApplicationDetails",
+    "OmniProcessId": {
+        "Name": "Psychiatric Residential Treatment Facility",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/PsychiatricResidentialTreatmentFacility/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "iconName": "",
+        "iconPosition": "left",
+        "iconVariant": "",
+        "label": "NavigateAction1",
+        "loginAction": "login",
+        "message": {
+        },
+        "objectAction": "home",
+        "pubsub": false,
+        "recordAction": "view",
+        "replace": true,
+        "ssm": false,
+        "targetFilter": "Recent",
+        "targetId": "%DRId_Case%",
+        "targetLWCLayout": "lightning",
+        "targetName": "Case",
+        "targetType": "Web Page",
+        "targetUrl": "/LPI/s/my-dashboard",
+        "validationRequired": "none",
+        "variant": "brand",
+        "wpm": false
+    },
+    "Type": "Navigate Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/PsychiatricResidentialTreatmentFacility/English/GotoApplicationDetails"
+}

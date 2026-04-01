@@ -1,0 +1,37 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "ACSD-Explanation",
+    "OmniProcessId": {
+        "Name": "Children with Disabilities Family Support",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/HHS/IntegratedEligibility/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Programs",
+        "OmniProcessId": {
+            "Name": "Children with Disabilities Family Support",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/HHS/IntegratedEligibility/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/HHS/IntegratedEligibility/English/Programs",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Programs",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "controlWidth": 12,
+        "dataJSON": false,
+        "text": "<div class=\"programDesc\"><img src=\"/resource/ACSD\" alt=\"ACSD-Logo\" width=\"148\" height=\"140\" /><br />\n<div class=\"programContent\">\n<p>If you are a parent or guardian who is caring for a child with a severe disability you may be able to get financial support through the Assistance for Children with Severe Disabilities (ACSD) Program. This program provides financial support for low-income and moderate-income families to cover some of the extra costs of caring for a child who has a severe disability.</p>\n<p>Eligible parents and guardians can receive between $25 and $500 a month to help with disability-related costs.</p>\n<p>&nbsp;</p>\n<h4>Eligibility</h4>\n<p>If you are a parent or a guardian of a child who is under 18 years of age (17 and under), lives at home and who has a severe disability, you may be eligible to receive funding from this program.</p>\n<p>Your eligibility and the amount of assistance you receive is based on a combination of factors:</p>\n<ul>\n<li>your household income</li>\n<li>size of your family</li>\n<li>severity of your child&rsquo;s disability</li>\n<li>extraordinary costs related to your child&rsquo;s disability</li>\n</ul>\n</div>\n</div>"
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/HHS/IntegratedEligibility/English/ACSD-Explanation"
+}

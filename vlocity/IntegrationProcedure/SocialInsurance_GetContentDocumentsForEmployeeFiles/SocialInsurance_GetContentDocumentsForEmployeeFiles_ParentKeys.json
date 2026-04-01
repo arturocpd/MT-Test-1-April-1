@@ -1,0 +1,5 @@
+[
+    "DataRaptor/PSSSocInsCreateContentDocumentCollection",
+    "DataRaptor/PSSSocInsFetchEmployeeAssessment",
+    "DataRaptor/PSSSocInsGetContentDocuments"
+]

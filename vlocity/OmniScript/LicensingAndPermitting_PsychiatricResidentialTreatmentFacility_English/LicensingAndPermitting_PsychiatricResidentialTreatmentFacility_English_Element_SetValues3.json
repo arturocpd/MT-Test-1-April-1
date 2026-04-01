@@ -1,0 +1,58 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetValues3",
+    "OmniProcessId": {
+        "Name": "Psychiatric Residential Treatment Facility",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/PsychiatricResidentialTreatmentFacility/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ApplicantInformation",
+        "OmniProcessId": {
+            "Name": "Psychiatric Residential Treatment Facility",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/PsychiatricResidentialTreatmentFacility/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/PsychiatricResidentialTreatmentFacility/English/ApplicantInformation",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ApplicantInformation",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 1,
+        "elementValueMap": {
+            "EmailAddress": "kurban@gmail.com",
+            "FacilityName": "Lakemary Center",
+            "FaxNumber": "(913)-557-4910",
+            "FirstName": "Karl",
+            "LastName": "Urban",
+            "MailingAddressSame": "Yes",
+            "PhoneNumber": "(913)-557-4000",
+            "PrefillAddress": "100 Lakemary Dr, Paola, KS,66071",
+            "Title": "Owner"
+        },
+        "label": ">>>",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/PsychiatricResidentialTreatmentFacility/English/SetValues3"
+}

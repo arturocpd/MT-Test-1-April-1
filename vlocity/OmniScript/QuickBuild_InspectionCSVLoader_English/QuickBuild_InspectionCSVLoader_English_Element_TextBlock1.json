@@ -1,0 +1,42 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "TextBlock1",
+    "OmniProcessId": {
+        "Name": "QuickBuild Inspection CSV Loader",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/QuickBuild/InspectionCSVLoader/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Items",
+        "OmniProcessId": {
+            "Name": "QuickBuild Inspection CSV Loader",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/QuickBuild/InspectionCSVLoader/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/QuickBuild/InspectionCSVLoader/English/Items",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Items",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock1",
+        "sanitize": false,
+        "show": null,
+        "text": "<p style=\"text-align: center;\">Upload a formatted CSV for the Inspection Template.</p>\n<p style=\"text-align: center;\">A template can be found <a href=\"https://docs.google.com/spreadsheets/d/1_cO2JnLQRNiA1_-h9SyxP4IzcR9b7bVh48yJ4SnT7vE/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">here</a></p>\n<p style=\"text-align: center;\">Please make a copy of the Google Sheet and save the file as a CSV</p>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/QuickBuild/InspectionCSVLoader/English/TextBlock1"
+}

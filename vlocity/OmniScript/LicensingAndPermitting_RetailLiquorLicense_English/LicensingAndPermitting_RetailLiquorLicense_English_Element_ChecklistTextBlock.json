@@ -1,0 +1,42 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "ChecklistTextBlock",
+    "OmniProcessId": {
+        "Name": "Retail Liquor License Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/RetailLiquorLicense/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ApplicationChecklist",
+        "OmniProcessId": {
+            "Name": "Retail Liquor License Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/RetailLiquorLicense/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/RetailLiquorLicense/English/ApplicationChecklist",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ApplicationChecklist",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock1",
+        "sanitize": false,
+        "show": null,
+        "text": "<p>Please have the following information, abilities, and materials available to complete the full application:</p>\n<ol>\n<li>Complete the Liquor Retail License Application form</li>\n<li>Submit a Completed Wholesaler Affidavit of Compliance form (Transfer Applicants Only) - form is <a href=\"https://sbg.colorado.gov/sites/sbg/files/DR%208004_e_wo_0.pdf\" target=\"_blank\" rel=\"noopener\">here</a></li>\n<li>Pay the application fees - View application fees <a href=\"https://sbg.colorado.gov/sites/sbg/files/documents/DR%20_8500_Fee_Schedule_12.30.2021.pdf\" target=\"_blank\" rel=\"noopener\">here</a> (you will have the ability to pay the fees in this application)&nbsp;</li>\n<li>Submit a diagram of the Premises\n<ul>\n<li>Dimensions included, Exterior areas should show type of control (fences, walls, entry/exit points etc.) and a seprate diagram for each floor.</li>\n</ul>\n</li>\n<li>Proof of Property Possession (Deed in name of applicat)</li>\n<li>Background Information and Financial Documents\n<ul>\n<li>Individual History Record(s) <a href=\"https://sbg.colorado.gov/sites/sbg/files/documents/DR_8404I.pdf\" target=\"_blank\" rel=\"noopener\">Form DR 84041-1</a>&nbsp; for each individual/principal of the establishment</li>\n<li>Fingerprints taken and submitted to the appropriate Local Licensing Authority.&nbsp; Vendors includes the following:\n<ul>\n<li>IdentoGO &ndash;&nbsp;<a href=\"https://uenroll.identogo.com/\">https://uenroll.identogo.com/</a>\n<ul>\n<li>Phone: (844) 539-5539 (toll-free)</li>\n</ul>\n</li>\n<li>State Fingerprinting &ndash; <a href=\"https://www.coloradofingerprinting.com/\" target=\"_blank\" rel=\"noopener\">http://www.statefingerprinting.com</a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ol>\n<p>Please complete the application and provide and upload the additional information through this portal as it becomes available through this portal.&nbsp; The Application will not be processed until all the information is provided and the application fees are paid.</p>\n<p></p>\n<p>Press Next to Continue:</p>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/RetailLiquorLicense/English/ChecklistTextBlock"
+}

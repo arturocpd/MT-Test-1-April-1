@@ -1,0 +1,8 @@
+[
+    "DataRaptor/GPSFormatPromptResults",
+    "DataRaptor/GPSRecruitmentGetProfileDetails",
+    "DataRaptor/GPSRecruitmentSetProfileDetails",
+    "DataRaptor/GPSSearchForJobsBasedonResume",
+    "DataRaptor/GPSUpdateResumeRawText",
+    "DataRaptor/GPSUpsertResumeEmploymentEducation"
+]

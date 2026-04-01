@@ -1,0 +1,11 @@
+[
+    "DataRaptor/QuickBuildAddSignature",
+    "DataRaptor/QuickBuildAddedDefinedValuesFromCSV",
+    "DataRaptor/QuickBuildCSVUploadTransformFilterOnlyNewJunctions",
+    "DataRaptor/QuickBuildCreateInspection",
+    "DataRaptor/QuickBuildCreateInspectionAddAssessmentTaskAssmentInd",
+    "DataRaptor/QuickBuildCreateInspectionAddRegulatoryAssmentInd",
+    "DataRaptor/QuickBuildFinalizeTemplateVersion",
+    "DataRaptor/QuickBuildGetAssessmentDefinedValuesFromCSV",
+    "IntegrationProcedure/PSUtility_CallUtilityLogWebService"
+]

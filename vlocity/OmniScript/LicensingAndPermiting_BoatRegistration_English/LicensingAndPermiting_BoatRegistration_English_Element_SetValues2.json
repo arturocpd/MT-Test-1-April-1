@@ -1,0 +1,59 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetValues2",
+    "OmniProcessId": {
+        "Name": "Boat Registration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermiting/BoatRegistration/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "BoatInformation",
+        "OmniProcessId": {
+            "Name": "Boat Registration",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermiting/BoatRegistration/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermiting/BoatRegistration/English/BoatInformation",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "BoatInformation",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 1,
+        "elementValueMap": {
+            "BoatLength": 22,
+            "HullIdNumber": "48392939",
+            "HullMaterial": "Fiberglass",
+            "MakeModelOfBoat": "Regal 2220 FasDeck",
+            "Marina": "East Lake",
+            "NameofBoat": "Minnow",
+            "Propulsion": "Inboard",
+            "TypeofFuelUsed": "Gasoline",
+            "Use": "Pleasure",
+            "YearBuilt": "2011"
+        },
+        "label": ">>",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermiting/BoatRegistration/English/SetValues2"
+}

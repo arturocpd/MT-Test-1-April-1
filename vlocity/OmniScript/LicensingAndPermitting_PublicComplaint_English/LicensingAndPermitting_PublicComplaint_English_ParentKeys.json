@@ -1,0 +1,7 @@
+[
+    "DataRaptor/DRGetBusinessAccounts",
+    "DataRaptor/DRGetIndividualAccounts",
+    "DataRaptor/DRGetPublicComplaintId",
+    "DataRaptor/DRSubmitComplaintLWC",
+    "IntegrationProcedure/PublicComplaint_Search"
+]

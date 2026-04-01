@@ -1,0 +1,6 @@
+[
+    "DataRaptor/DRGetApplicationId",
+    "DataRaptor/ESRICreatePermit",
+    "DataRaptor/ESRIGetAccountDetails",
+    "DataRaptor/LPIGetDemoOmniscript"
+]

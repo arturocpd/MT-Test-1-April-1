@@ -1,0 +1,49 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "PSS_SI_v1_ReviewAgreeInformationProvidedbyWorker6",
+    "OmniProcessId": {
+        "Name": "Respond to Claim",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/SocialInsurance/RespondToClaim/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ReviewEmployerConfirmation2",
+        "OmniProcessId": {
+            "Name": "Respond to Claim",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/SocialInsurance/RespondToClaim/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/SocialInsurance/RespondToClaim/English/ReviewEmployerConfirmation2",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ReviewEmployerConfirmation2",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataType": "Text",
+        "dateFormat": "MM-dd-yyyy",
+        "disOnTplt": false,
+        "expression": "IF(%PSS_SI_v1_AgreeInformationProvidedbyWorker6%!=NULL, %PSS_SI_v1_AgreeInformationProvidedbyWorker6%, \"\")",
+        "hide": false,
+        "hideGroupSep": false,
+        "inputWidth": 12,
+        "label": "Agree with the information provided by the employee",
+        "mask": null,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Formula",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/SocialInsurance/RespondToClaim/English/PSS_SI_v1_ReviewAgreeInformationProvidedbyWorker6"
+}

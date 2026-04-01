@@ -1,0 +1,25 @@
+{
+    "CurrencyIsoCode": "USD",
+    "EmbeddedOmniScriptKey": "Recertification|HouseholdIncome|English",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "RecertifyHouseholdIncome",
+    "OmniProcessId": {
+        "Name": "ApplyForRecertification",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Recertification/Application/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "Language": "English",
+        "Sub Type": "HouseholdIncome",
+        "Type": "Recertification",
+        "show": null
+    },
+    "Type": "OmniScript",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Recertification/Application/English/RecertifyHouseholdIncome"
+}

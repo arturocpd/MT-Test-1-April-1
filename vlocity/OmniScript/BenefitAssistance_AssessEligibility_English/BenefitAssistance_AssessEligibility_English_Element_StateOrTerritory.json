@@ -1,0 +1,282 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": false,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "StateOrTerritory",
+    "OmniProcessId": {
+        "Name": "Find Applicable Benefits",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitAssistance/AssessEligibility/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "BenefitApplicantDetails",
+        "OmniProcessId": {
+            "Name": "Find Applicable Benefits",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitAssistance/AssessEligibility/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitAssistance/AssessEligibility/English/BenefitApplicantDetails",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "BenefitApplicantDetails",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 7,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "helpTextPos": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "In which U.S. State or Territory do you live?",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "NotApplicable",
+                "value": "Not Applicable"
+            },
+            {
+                "name": "Alabama",
+                "value": "Alabama"
+            },
+            {
+                "name": "Alaska",
+                "value": "Alaska"
+            },
+            {
+                "name": "Arizona",
+                "value": "Arizona"
+            },
+            {
+                "name": "Arkansas",
+                "value": "Arkansas"
+            },
+            {
+                "name": "California",
+                "value": "California"
+            },
+            {
+                "name": "Colorado",
+                "value": "Colorado"
+            },
+            {
+                "name": "Connecticut",
+                "value": "Connecticut"
+            },
+            {
+                "name": "Delaware",
+                "value": "Delaware"
+            },
+            {
+                "name": "DistrictOfColumbia",
+                "value": "District of Columbia"
+            },
+            {
+                "name": "Florida",
+                "value": "Florida"
+            },
+            {
+                "name": "Georgia",
+                "value": "Georgia"
+            },
+            {
+                "name": "Hawaii",
+                "value": "Hawaii"
+            },
+            {
+                "name": "Idaho",
+                "value": "Idaho"
+            },
+            {
+                "name": "Illinois",
+                "value": "Illinois"
+            },
+            {
+                "name": "Indiana",
+                "value": "Indiana"
+            },
+            {
+                "name": "Iowa",
+                "value": "Iowa"
+            },
+            {
+                "name": "Kansas",
+                "value": "Kansas"
+            },
+            {
+                "name": "Kentucky",
+                "value": "Kentucky"
+            },
+            {
+                "name": "Louisiana",
+                "value": "Louisiana"
+            },
+            {
+                "name": "Maine",
+                "value": "Maine"
+            },
+            {
+                "name": "Maryland",
+                "value": "Maryland"
+            },
+            {
+                "name": "Massachusetts",
+                "value": "Massachusetts"
+            },
+            {
+                "name": "Michigan",
+                "value": "Michigan"
+            },
+            {
+                "name": "Minnesota",
+                "value": "Minnesota"
+            },
+            {
+                "name": "Mississippi",
+                "value": "Mississippi"
+            },
+            {
+                "name": "Missouri",
+                "value": "Missouri"
+            },
+            {
+                "name": "Montana",
+                "value": "Montana"
+            },
+            {
+                "name": "Nebraska",
+                "value": "Nebraska"
+            },
+            {
+                "name": "Nevada",
+                "value": "Nevada"
+            },
+            {
+                "name": "NewHampshire",
+                "value": "New Hampshire"
+            },
+            {
+                "name": "NewJersey",
+                "value": "New Jersey"
+            },
+            {
+                "name": "NewMexico",
+                "value": "New Mexico"
+            },
+            {
+                "name": "NewYork",
+                "value": "New York"
+            },
+            {
+                "name": "NorthCarolina",
+                "value": "North Carolina"
+            },
+            {
+                "name": "NorthDakota",
+                "value": "North Dakota"
+            },
+            {
+                "name": "Ohio",
+                "value": "Ohio"
+            },
+            {
+                "name": "Oklahoma",
+                "value": "Oklahoma"
+            },
+            {
+                "name": "Oregon",
+                "value": "Oregon"
+            },
+            {
+                "name": "Pennsylvania",
+                "value": "Pennsylvania"
+            },
+            {
+                "name": "RhodeIsland",
+                "value": "Rhode Island"
+            },
+            {
+                "name": "SouthCarolina",
+                "value": "South Carolina"
+            },
+            {
+                "name": "SouthDakota",
+                "value": "South Dakota"
+            },
+            {
+                "name": "Tennessee",
+                "value": "Tennessee"
+            },
+            {
+                "name": "Texas",
+                "value": "Texas"
+            },
+            {
+                "name": "Utah",
+                "value": "Utah"
+            },
+            {
+                "name": "Vermont",
+                "value": "Vermont"
+            },
+            {
+                "name": "Virginia",
+                "value": "Virginia"
+            },
+            {
+                "name": "Washington",
+                "value": "Washington"
+            },
+            {
+                "name": "WestVirginia",
+                "value": "West Virginia"
+            },
+            {
+                "name": "Wisconsin",
+                "value": "Wisconsin"
+            },
+            {
+                "name": "Wyoming",
+                "value": "Wyoming"
+            },
+            {
+                "name": "PuertoRico",
+                "value": "Puerto Rico"
+            },
+            {
+                "name": "OtherUSTerritories",
+                "value": "Other US Territories"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitAssistance/AssessEligibility/English/StateOrTerritory"
+}

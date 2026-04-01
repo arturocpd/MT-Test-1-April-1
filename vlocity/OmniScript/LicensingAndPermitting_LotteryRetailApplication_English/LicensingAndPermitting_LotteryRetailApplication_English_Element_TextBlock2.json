@@ -1,0 +1,54 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "TextBlock2",
+    "OmniProcessId": {
+        "Name": "Lottery Retail Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/LotteryRetailApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "BusinessDetails",
+        "OmniProcessId": {
+            "Name": "Lottery Retail Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/LotteryRetailApplication/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/LotteryRetailApplication/English/BusinessDetails",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "BusinessDetails",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock2",
+        "sanitize": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Yes",
+                        "field": "HaveLiquorLicense"
+                    }
+                ]
+            }
+        },
+        "text": "<p><em>RSA 284:45, VI(a) requires that, to be eligible to operate KENO 603, the applicant hold a valid liquor license as one of the following: (1) A Restaurant/hotel licensed under RSA 178:20, II, RSA 178:21, II(a) or (b), or RSA 178:22, V(q); (2) A brew pub licensed under RSA 178:13; (3) A ballroom licensed under RSA 178:22, V(c); (4) A veterans&rsquo; club, private club, or social club licensed under RSA 178:22, V(h); (5) A Convention center licensed under RSA 178:22, V(i); (6) A Hotel licensed under RSA 178:22, V(k); (7) A racetrack licensed under RSA 178:22, V(n);or (8) A sports recreation facility licensed under RSA 178:22, V(v)</em></p>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/LotteryRetailApplication/English/TextBlock2"
+}

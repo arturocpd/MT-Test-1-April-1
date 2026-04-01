@@ -1,0 +1,61 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetValues2",
+    "OmniProcessId": {
+        "Name": "Special Event Permit",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/SpecialEvent/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "EventDetails",
+        "OmniProcessId": {
+            "Name": "Special Event Permit",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/SpecialEvent/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/SpecialEvent/English/EventDetails",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "EventDetails",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 1,
+        "elementValueMap": {
+            "AssemblyStagingArea": "Main stage will be on the corner of Fullerton and Lockhead",
+            "AssemblyTime": "08:00:00.000Z",
+            "DisbandingArea": "Corner of Fullerton and Lockhead",
+            "DisbandingTime": "12:00:00.000Z",
+            "EndingTime": "11:00:00.000Z",
+            "FirstAid": "First Aid will be provided.  Bottled water will be available for sale.  Portable toilets will be delivered.",
+            "HowEventWillbeConducted": "March will start at corner of Long and Fullteron, proceed 2 blocks with stage for speakers",
+            "MarchParadeStartingTime": "10:00:00.000Z",
+            "NumberOfficialsAssemblyArea": 10,
+            "NumberOfficialsDisbandingArea": 10,
+            "NumberSpecators": 500,
+            "TotalEventParticipants": 20
+        },
+        "label": ">>",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/SpecialEvent/English/SetValues2"
+}

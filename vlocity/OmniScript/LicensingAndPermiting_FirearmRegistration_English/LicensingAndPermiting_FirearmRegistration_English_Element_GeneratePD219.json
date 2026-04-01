@@ -1,0 +1,80 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "GeneratePD219",
+    "OmniProcessId": {
+        "Name": "Licensing and Permitting Firearm Registration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermiting/FirearmRegistration/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "attachmentName": "DCMPD219",
+        "attachmentParentId": "%DRId_IndividualApplication%",
+        "businessCategory": "",
+        "businessEvent": "",
+        "controlWidth": 12,
+        "dateFormat": "",
+        "dateTimeFormat": "",
+        "displayHeight": 700,
+        "displayWidth": 600,
+        "enableActionMessage": false,
+        "enableDefaultAbort": false,
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureGoBackLabel": "Go Back",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": "GeneratePD219",
+        "message": {
+        },
+        "postMessage": "Done",
+        "preTransformBundle": "LPIPopulateDCMPD219",
+        "pubsub": false,
+        "readOnly": false,
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPageName": "",
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "vlcPDF.html",
+        "remoteTimeout": 30000,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Yes",
+                        "field": "RegisterPistolConcurrently"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "showPopup": false,
+        "ssm": false,
+        "templateName": "FirearmPD219",
+        "timeFormat": "",
+        "validationRequired": "Submit",
+        "wpm": false
+    },
+    "Type": "PDF Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermiting/FirearmRegistration/English/GeneratePD219"
+}

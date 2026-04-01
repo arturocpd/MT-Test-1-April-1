@@ -1,0 +1,42 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "TextBlock2",
+    "OmniProcessId": {
+        "Name": "School Grant - STEM Program Funding",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Grants/BlockGrantWithOutcomes/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "StatementofNeedStep",
+        "OmniProcessId": {
+            "Name": "School Grant - STEM Program Funding",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Grants/BlockGrantWithOutcomes/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Grants/BlockGrantWithOutcomes/English/StatementofNeedStep",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "StatementofNeedStep",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock2",
+        "sanitize": false,
+        "show": null,
+        "text": "<p class=\"p1\">Describe the need for this project and identify the targeted group who will benefit from the project goals and activities along with how the need was determined. Applicants must propose to further raise students' academic achievement by:</p>\n<ul class=\"ul1\">\n<li class=\"li2\">increasing the availability of and all students' access to advanced placement (AP) or international baccalaureate (IB) courses or programs;</li>\n<li class=\"li2\">expanding the breadth of advanced placement or international baccalaureate courses or programs that are available to students;</li>\n<li class=\"li2\">increasing the number and the diversity of the students who participate in advanced placement or international baccalaureate courses or programs and succeed;</li>\n<li class=\"li2\">providing low-income and other disadvantaged students with increased access to advanced placement or international baccalaureate courses and programs; or</li>\n<li class=\"li1\">increasing the number of high school students, including low-income and other disadvantaged students, who receive college credit by successfully completing advanced placement or international baccalaureate courses or programs and achieving satisfactory scores on related exams.</li>\n</ul>\n<p class=\"p1\">Include specific data that supports the stated need and how your program will be STEM focused. Include the following:</p>\n<ul class=\"ul1\">\n<li class=\"li2\">The target population</li>\n<li class=\"li2\">How the need was determined</li>\n<li class=\"li2\">Specific data supporting your stated need for the targeted population group identified and the need for STEM AP or IB programs</li>\n<li class=\"li2\">Grade levels targeted in the application</li>\n<li class=\"li2\">The population(s) that will benefit</li>\n<li class=\"li2\">Current barriers that exist for the targeted group</li>\n<li class=\"li1\">Other information that supports how the need was determined</li>\n</ul>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Grants/BlockGrantWithOutcomes/English/TextBlock2"
+}

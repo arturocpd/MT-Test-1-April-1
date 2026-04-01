@@ -1,0 +1,25 @@
+{
+    "CurrencyIsoCode": "USD",
+    "EmbeddedOmniScriptKey": "Recruitment|ApplicantPersonalDetails|English",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "ApplicantPersonalDetails",
+    "OmniProcessId": {
+        "Name": "Job Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Recruitment/JobApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "Language": "English",
+        "Sub Type": "ApplicantPersonalDetails",
+        "Type": "Recruitment",
+        "show": null
+    },
+    "Type": "OmniScript",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Recruitment/JobApplication/English/ApplicantPersonalDetails"
+}

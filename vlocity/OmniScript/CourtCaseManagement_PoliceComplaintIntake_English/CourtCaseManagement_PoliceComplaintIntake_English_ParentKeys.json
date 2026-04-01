@@ -1,0 +1,10 @@
+[
+    "DataRaptor/CCMDRCreateComplaintParticipants",
+    "DataRaptor/CCMDRCreateCustodyItem",
+    "DataRaptor/CCMDRCreateCustodyItemRelation",
+    "DataRaptor/CCMDRCreatePublicComplaint",
+    "DataRaptor/CCMDRCreateRegulatoryCodeViolation",
+    "DataRaptor/CCMDRGetPublicComplaint",
+    "DataRaptor/CCMDRGetRecordTypeId",
+    "DataRaptor/CCMDRGetUserDetails"
+]

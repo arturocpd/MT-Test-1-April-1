@@ -1,0 +1,42 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "TextBlock4",
+    "OmniProcessId": {
+        "Name": "Patient Medical Cannabis",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/CannabisPatientApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Confirmation",
+        "OmniProcessId": {
+            "Name": "Patient Medical Cannabis",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/CannabisPatientApplication/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/CannabisPatientApplication/English/Confirmation",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Confirmation",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock4",
+        "sanitize": false,
+        "show": null,
+        "text": "<div class=\"slds-text-heading_small slds-text-color_success slds-p-top_small slds-p-bottom_small\" style=\"text-align: center;\"><span class=\"ng-binding\" style=\"color: #169179;\">Your application was submitted.</span></div>\n<div class=\"slds-text-heading_small slds-text-color_success slds-p-top_small slds-p-bottom_small\" style=\"text-align: center;\">&nbsp;</div>\n<div class=\"slds-text-heading_small slds-text-color_success slds-p-top_small slds-p-bottom_small\" style=\"text-align: center;\"><span class=\"ng-binding\" style=\"color: #000000;\">Your application ID is %CreatedOlaName%.</span></div>\n<div class=\"slds-p-bottom_x-small\" style=\"text-align: center;\">\n<p>Amount Due</p>\n</div>\n<div class=\"slds-text-heading_large slds-p-bottom_medium\" style=\"text-align: center;\">\n<p><strong class=\"ng-binding\">%FeeAmount%</strong></p>\n</div>\n<div class=\"slds-p-bottom_medium\">\n<p style=\"text-align: center;\">Use your application ID in any correspondence with us.</p>\n<p style=\"text-align: center;\">The payment details are displayed in the Fee Payment History page.</p>\n</div>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/CannabisPatientApplication/English/TextBlock4"
+}

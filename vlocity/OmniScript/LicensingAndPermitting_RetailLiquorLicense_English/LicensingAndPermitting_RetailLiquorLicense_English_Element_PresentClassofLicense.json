@@ -1,0 +1,99 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "PresentClassofLicense",
+    "OmniProcessId": {
+        "Name": "Retail Liquor License Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/RetailLiquorLicense/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "CurrentLicenseInformation",
+        "OmniProcessId": {
+            "Name": "Retail Liquor License Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/RetailLiquorLicense/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/RetailLiquorLicense/English/CurrentLicenseInformation",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "CurrentLicenseInformation",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "helpTextPos": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Present Class of License",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "Arts Liquor License",
+                "value": "Arts Liquor License"
+            },
+            {
+                "autoAdv": null,
+                "name": "Bed and Breakfast Permit",
+                "value": "Bed and Breakfast Permit"
+            },
+            {
+                "autoAdv": null,
+                "name": "Beer and Wine License",
+                "value": "Beer and Wine License"
+            },
+            {
+                "autoAdv": null,
+                "name": "Brew Pub",
+                "value": "Brew Pub"
+            },
+            {
+                "autoAdv": null,
+                "name": "Club License",
+                "value": "Club License"
+            },
+            {
+                "autoAdv": null,
+                "name": "Fermented Malt Beverage License",
+                "value": "Fermented Malt Beverage License"
+            },
+            {
+                "autoAdv": null,
+                "name": "Hotel and Restaurant",
+                "value": "Hotel and Restaurant"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/RetailLiquorLicense/English/PresentClassofLicense"
+}

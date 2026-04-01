@@ -1,0 +1,75 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetValues2",
+    "OmniProcessId": {
+        "Name": "Child Care Detailed Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/IntegratedEligibility/ChildCareApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Step2",
+        "OmniProcessId": {
+            "Name": "Child Care Detailed Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/IntegratedEligibility/ChildCareApplication/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/IntegratedEligibility/ChildCareApplication/English/Step2",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Step2",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 1,
+        "elementValueMap": {
+            "ChildBlock": [
+                {
+                    "ChildDOB": "2022-07-13",
+                    "ChildFirstName": "Hannah",
+                    "ChildLastName": "Marshall",
+                    "ChildSSN": "445566778",
+                    "EnrolledInHeadStart": "No",
+                    "TypeOfCare": "Full-time"
+                },
+                {
+                    "ChildDOB": "2017-02-13",
+                    "ChildFirstName": "Adam",
+                    "ChildLastName": "Marshall",
+                    "ChildSSN": "556677888",
+                    "EnrolledInHeadStart": "No",
+                    "TypeOfCare": "After-school"
+                }
+            ],
+            "Children3to5": 0,
+            "Children6to13": 1,
+            "ChildrenCitizenshipStatus": "U.S. Citizen",
+            "ChildrenUnder3": 1,
+            "HouseholdSize": 3,
+            "MaritalStatus": "Single",
+            "NumberOfChildren": 2,
+            "PregnantStatus": "No"
+        },
+        "label": ">>",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/IntegratedEligibility/ChildCareApplication/English/SetValues2"
+}

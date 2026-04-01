@@ -1,0 +1,42 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "TextBlock7",
+    "OmniProcessId": {
+        "Name": "Hydraulic Project Approval Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "AuthorizedAgentorContactStep",
+        "OmniProcessId": {
+            "Name": "Hydraulic Project Approval Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English/AuthorizedAgentorContactStep",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "AuthorizedAgentorContactStep",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock7",
+        "sanitize": false,
+        "show": null,
+        "text": "<p><span id=\"ctl00_ctl00_SimpleMainContent_MainContent_ucDynamicFormWizard_ctl142\">Fill out this section to identify another person authorized to represent the applicant about the project.</span><br /><span id=\"ctl00_ctl00_SimpleMainContent_MainContent_ucDynamicFormWizard_ctl144\"></span><br /><span id=\"ctl00_ctl00_SimpleMainContent_MainContent_ucDynamicFormWizard_ctl146\">If you are an authorized agent applying for an applicant, your contact information must be included in this section of the application. DFW will not accept applications in which a registered user submits an application but their contact information does not appear in the applicant and/or authorized agent section. If you are an authorized agent, you will be required to upload an attachment to document the applicant&rsquo;s consent; attachment must have applicant&rsquo;s signatures. To download a copy of the document <a href=\"https://www.govonlinesaas.com/WA/WDFW/Public/Public/Doc/Agent_Authorization_Letter.doc\" title=\"Authorization of Agent\" target=\"_blank\" rel=\"noopener\">click here.</a></span></p>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English/TextBlock7"
+}

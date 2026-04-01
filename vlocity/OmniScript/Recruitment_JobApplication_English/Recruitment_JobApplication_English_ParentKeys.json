@@ -1,0 +1,6 @@
+[
+    "DataRaptor/GPSUpdateUseExistingResume",
+    "IntegrationProcedure/GPSTalentManagement_CreateDocChecklist",
+    "IntegrationProcedure/GPSTalentRecruitment_ScoreApplications",
+    "IntegrationProcedure/Recruitment_CreateApplicationFormAndRelatedRecords"
+]

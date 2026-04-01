@@ -1,0 +1,53 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "TextBlock10",
+    "OmniProcessId": {
+        "Name": "Create Budget",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GrantsAF/CreateBudget/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "CreateBudgetFrameworkStep",
+        "OmniProcessId": {
+            "Name": "Create Budget",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/GrantsAF/CreateBudget/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/GrantsAF/CreateBudget/English/CreateBudgetFrameworkStep",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "CreateBudgetFrameworkStep",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock1",
+        "sanitize": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Create New",
+                        "field": "BudgetType"
+                    }
+                ]
+            }
+        },
+        "text": "<p>If the Funding Opportunity you are applying for already has a required and defined Budget Template you must use, you may request inclusion of your own additional<strong> Budget Category (below).</strong> If applicable, you may optionally add&nbsp;additional Budget Period(s) as well (next screen).</p>\n<p>Examples:</p>\n<p>Add new Budget Categories only, and leverage the existing budget template defined periods as they are.</p>\n<p>Add new Budget Categories <strong>and</strong> a new Budget Period called 'Upfront One Time Expense'</p>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GrantsAF/CreateBudget/English/TextBlock10"
+}

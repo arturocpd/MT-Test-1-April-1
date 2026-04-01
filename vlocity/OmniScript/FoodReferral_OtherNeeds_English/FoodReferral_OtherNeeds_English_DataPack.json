@@ -1,0 +1,33 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": false,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": true,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "MayEdit": true,
+    "Name": "Food Referral Other Needs",
+    "OmniProcessElement": [
+        "FoodReferral_OtherNeeds_English_Element_FoodReferralOtherNeeds.json",
+        "FoodReferral_OtherNeeds_English_Element_Cash_Assistance.json",
+        "FoodReferral_OtherNeeds_English_Element_Diapers.json",
+        "FoodReferral_OtherNeeds_English_Element_Formula.json",
+        "FoodReferral_OtherNeeds_English_Element_Other_Needs.json",
+        "FoodReferral_OtherNeeds_English_Element_Save-Responses.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "FoodReferral_OtherNeeds_English_PropertySetConfig.json",
+    "SubType": "OtherNeeds",
+    "Type": "FoodReferral",
+    "UniqueName": "FoodReferral_OtherNeeds_English_4",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/FoodReferral/OtherNeeds/English"
+}

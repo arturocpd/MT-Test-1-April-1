@@ -1,0 +1,129 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "ApplicantAccountType",
+    "OmniProcessId": {
+        "Name": "Hydraulic Project Approval Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ApplicantInformation",
+        "OmniProcessId": {
+            "Name": "Hydraulic Project Approval Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English/ApplicantInformation",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ApplicantInformation",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "helpTextPos": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Applicant Account Type",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "Agriculture - Business",
+                "value": "Agriculture - Business"
+            },
+            {
+                "autoAdv": null,
+                "name": "Agriculture - Individual",
+                "value": "Agriculture - Individual"
+            },
+            {
+                "autoAdv": null,
+                "name": "Agriculture - Irrigation, Drainage, or Other District",
+                "value": "Agriculture - Irrigation, Drainage, or Other District"
+            },
+            {
+                "autoAdv": null,
+                "name": "Commericial or Industrial (non-agriculture)",
+                "value": "Commericial or Industrial (non-agriculture)"
+            },
+            {
+                "autoAdv": null,
+                "name": "Forestry",
+                "value": "Forestry"
+            },
+            {
+                "autoAdv": null,
+                "name": "Government - City",
+                "value": "Government - City"
+            },
+            {
+                "autoAdv": null,
+                "name": "Government - County",
+                "value": "Government - County"
+            },
+            {
+                "autoAdv": null,
+                "name": "Government - Federal",
+                "value": "Government - Federal"
+            },
+            {
+                "autoAdv": null,
+                "name": "Government - Ports",
+                "value": "Government - Ports"
+            },
+            {
+                "autoAdv": null,
+                "name": "Government - State",
+                "value": "Government - State"
+            },
+            {
+                "autoAdv": null,
+                "name": "Government - Tribal",
+                "value": "Government - Tribal"
+            },
+            {
+                "autoAdv": null,
+                "name": "Non-Profit Group",
+                "value": "Non-Profit Group"
+            },
+            {
+                "autoAdv": null,
+                "name": "Single or Multiple Private Individuals",
+                "value": "Single or Multiple Private Individuals"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English/ApplicantAccountType"
+}

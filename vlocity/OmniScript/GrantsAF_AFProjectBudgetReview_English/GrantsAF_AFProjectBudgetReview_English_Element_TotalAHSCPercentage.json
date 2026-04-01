@@ -1,0 +1,47 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "TotalAHSCPercentage",
+    "OmniProcessId": {
+        "Name": "AFProjectBudgetReview",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GrantsAF/AFProjectBudgetReview/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "DevelopmentCostsAndFundingStep",
+        "OmniProcessId": {
+            "Name": "AFProjectBudgetReview",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/GrantsAF/AFProjectBudgetReview/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/GrantsAF/AFProjectBudgetReview/English/DevelopmentCostsAndFundingStep",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "DevelopmentCostsAndFundingStep",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 2,
+        "dataType": "Number",
+        "dateFormat": "MM-dd-yyyy",
+        "disOnTplt": false,
+        "expression": "100*%TotalFundsRequests%/%TotalDevelopmentCosts%",
+        "hide": false,
+        "hideGroupSep": false,
+        "inputWidth": 12,
+        "label": "Total %",
+        "mask": "99.99",
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Formula",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GrantsAF/AFProjectBudgetReview/English/TotalAHSCPercentage"
+}

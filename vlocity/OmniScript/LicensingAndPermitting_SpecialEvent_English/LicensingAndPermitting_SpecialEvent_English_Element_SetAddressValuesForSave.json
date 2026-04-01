@@ -1,0 +1,42 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetAddressValuesForSave",
+    "OmniProcessId": {
+        "Name": "Special Event Permit",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/SpecialEvent/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "Address": "=%SaveAddress%",
+            "SaveAddress": "=IF(%SponsoringOrgAddress%==null,\"11720 Plaza America Dr, Reston, VA, 20190, United States\",%SponsoringOrgAddress:Address%)",
+            "SaveCity": "=IF(%SponsoringOrgAddress%==null,\"Reston\",%SponsoringOrgAddress:City%)",
+            "SaveCountry": "=IF(%SponsoringOrgAddress%==null,\"United States\",%SponsoringOrgAddress:Country%)",
+            "SavePostalCode": "=IF(%SponsoringOrgAddress%==null,\"20190\",%SponsoringOrgAddress:PostalCode%)",
+            "SaveState": "=IF(%SponsoringOrgAddress%==null,\"VA\",%SponsoringOrgAddress:Province%)",
+            "SaveStreet": "=IF(%SponsoringOrgAddress%==null,\"11720 Plaza America Dr\",%SponsoringOrgAddress:Street%)"
+        },
+        "label": "SetAddressValuesForSave",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/SpecialEvent/English/SetAddressValuesForSave"
+}

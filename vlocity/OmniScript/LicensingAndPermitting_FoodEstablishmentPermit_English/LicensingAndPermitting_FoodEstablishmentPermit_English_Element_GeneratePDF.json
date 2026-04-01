@@ -1,0 +1,69 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": true,
+    "MayEdit": true,
+    "Name": "GeneratePDF",
+    "OmniProcessId": {
+        "Name": "Food Establishment Permit Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/FoodEstablishmentPermit/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "attachmentName": "FoodEstablishmentPermitApplication",
+        "attachmentParentId": "%DRId_BusinessLicenseApplication%",
+        "businessCategory": "",
+        "businessEvent": "",
+        "controlWidth": 12,
+        "dateFormat": "",
+        "dateTimeFormat": "",
+        "displayHeight": 700,
+        "displayWidth": 600,
+        "enableActionMessage": false,
+        "enableDefaultAbort": false,
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureGoBackLabel": "Go Back",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": "GeneratePDF",
+        "message": {
+        },
+        "postMessage": "Done",
+        "preTransformBundle": "LPIRestaurantPDFTransform",
+        "pubsub": false,
+        "readOnly": false,
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPageName": "",
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "vlcPDF.html",
+        "remoteTimeout": 30000,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "showPopup": false,
+        "ssm": false,
+        "templateName": "FoodEstablishmentPermitApplication",
+        "timeFormat": "",
+        "validationRequired": "Submit",
+        "wpm": false
+    },
+    "Type": "PDF Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/FoodEstablishmentPermit/English/GeneratePDF"
+}

@@ -1,0 +1,69 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "FosterCarePDF",
+    "OmniProcessId": {
+        "Name": "LPI Foster Care Application Form",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LPIFosterCare/Application/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "attachmentName": "FosterCareApplication",
+        "attachmentParentId": "%ApplicationId%",
+        "businessCategory": "",
+        "businessEvent": "",
+        "controlWidth": 12,
+        "dateFormat": "",
+        "dateTimeFormat": "",
+        "displayHeight": 700,
+        "displayWidth": 600,
+        "enableActionMessage": false,
+        "enableDefaultAbort": false,
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureGoBackLabel": "Go Back",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": "FosterCarePDF",
+        "message": {
+        },
+        "postMessage": "Done",
+        "preTransformBundle": "FCMaptoFosterCarePDF",
+        "pubsub": false,
+        "readOnly": false,
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPageName": "",
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "vlcPDF.html",
+        "remoteTimeout": 30000,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "showPopup": false,
+        "ssm": false,
+        "templateName": "FosterCareApplication",
+        "timeFormat": "",
+        "validationRequired": "Submit",
+        "wpm": false
+    },
+    "Type": "PDF Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LPIFosterCare/Application/English/FosterCarePDF"
+}

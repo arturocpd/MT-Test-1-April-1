@@ -1,0 +1,25 @@
+{
+    "CurrencyIsoCode": "USD",
+    "EmbeddedOmniScriptKey": "Reusable|Sample|English",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "CompanyMailingAddress",
+    "OmniProcessId": {
+        "Name": "emebedded Omniscript",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/sample/canBeAnything/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "Language": "English",
+        "Sub Type": "Sample",
+        "Type": "Reusable",
+        "show": null
+    },
+    "Type": "OmniScript",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/sample/canBeAnything/English/CompanyMailingAddress"
+}

@@ -1,0 +1,53 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "TextBlock3",
+    "OmniProcessId": {
+        "Name": "FoodAssistanceEligibility",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/FoodAssistance/Eligibility/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "EstimatedBenefitsStep",
+        "OmniProcessId": {
+            "Name": "FoodAssistanceEligibility",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/FoodAssistance/Eligibility/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/FoodAssistance/Eligibility/English/EstimatedBenefitsStep",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "EstimatedBenefitsStep",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock2",
+        "sanitize": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "EligibleForFoodAssistance"
+                    }
+                ]
+            }
+        },
+        "text": "<h2>%AboutYouStep:FirstName% %AboutYouStep:LastName% based on the information you have entered your household is <span style=\"text-decoration: underline;\">eligible</span> for the Supplemental Nutrition Assistance Program for a monthly benefit amount of <span style=\"text-decoration: underline;\">$%FoodAssistanceBenefit%.</span></h2>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/FoodAssistance/Eligibility/English/TextBlock3"
+}

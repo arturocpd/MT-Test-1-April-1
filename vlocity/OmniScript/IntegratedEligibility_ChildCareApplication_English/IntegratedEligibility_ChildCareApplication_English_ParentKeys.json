@@ -1,0 +1,8 @@
+[
+    "DataRaptor/AgentforceChildCareTransformAssessmentoOS",
+    "DataRaptor/GetAccountfromUser",
+    "DataRaptor/GetCaseID",
+    "DataRaptor/HHSAgentCreateChildCareCase",
+    "ExpressionSet/ChildCareEligibility",
+    "IntegrationProcedure/DiscoveryFramework_Flatten"
+]

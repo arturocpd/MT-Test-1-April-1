@@ -1,0 +1,10 @@
+[
+    "DataRaptor/PSSCheckUserType3",
+    "DataRaptor/PSSExpCloudGetPersonAccountIDOfApplicant1",
+    "DataRaptor/PSSExpCloudMapBenefitAssessmentResponseToPDF1",
+    "DataRaptor/PSSFetchIndividualApplicationStatus1",
+    "DataRaptor/PSSFetchReturnedToApplicantStatus3",
+    "DataRaptor/PSSReportChangeCreatePARFromAssessment1",
+    "IntegrationProcedure/ChangeOfCircumstances_ModifyReturnedIndividualApplication",
+    "IntegrationProcedure/Recertification_CreateIndividualApplicationAndRelatedRecords"
+]

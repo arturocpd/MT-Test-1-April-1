@@ -1,0 +1,82 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "RuralInnovationProjectAreaRequirements",
+    "OmniProcessId": {
+        "Name": "Community Development Grant",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Grants/BlockMatchingGrant/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "RuralInnovationProjectAreasStep",
+        "OmniProcessId": {
+            "Name": "Community Development Grant",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Grants/BlockMatchingGrant/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Grants/BlockMatchingGrant/English/RuralInnovationProjectAreasStep",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "RuralInnovationProjectAreasStep",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "label": "Rural Innovation Project Area Requirements",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "Yes",
+                "setAll": false,
+                "value": "Yes"
+            },
+            {
+                "name": "No",
+                "setAll": false,
+                "value": "No"
+            }
+        ],
+        "radioLabels": [
+            {
+                "name": "LocatedInRuralArea",
+                "value": "Located within a Rural Area?"
+            },
+            {
+                "name": "IncludesTransitStop",
+                "value": "(1) Includes at least one Transit Station/Stop?"
+            },
+            {
+                "name": "ServedByOneQualifyingTransit",
+                "value": "(2) Will be served by at least one mode of Qualifying Transit that does not meet the requirements of High Quality Transit, at time of application submittal?"
+            }
+        ],
+        "radioLabelsWidth": "8",
+        "readOnly": false,
+        "required": false,
+        "show": null
+    },
+    "Type": "Radio Group",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Grants/BlockMatchingGrant/English/RuralInnovationProjectAreaRequirements"
+}

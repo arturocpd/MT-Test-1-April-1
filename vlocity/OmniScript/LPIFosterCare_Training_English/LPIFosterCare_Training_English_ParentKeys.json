@@ -1,0 +1,6 @@
+[
+    "DataRaptor/FCCreateCourseParticipant",
+    "DataRaptor/FCGetSelectedCourseDetails",
+    "DataRaptor/FCGetTrainingCourses",
+    "DataRaptor/FSGetDemoData"
+]

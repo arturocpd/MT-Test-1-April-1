@@ -1,0 +1,81 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DesignerCustomizationType": "Discovery Framework",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "Psychological_disease_Group",
+    "OmniProcessId": {
+        "Name": "Opioid Risk Assessment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Risk/Assessment/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Step2",
+        "OmniProcessId": {
+            "Name": "Opioid Risk Assessment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Risk/Assessment/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Risk/Assessment/English/Step2",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Step2",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "label": "Psychological disease",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "Yes",
+                "setAll": false,
+                "value": "Yes"
+            },
+            {
+                "name": "No",
+                "setAll": false,
+                "value": "No"
+            }
+        ],
+        "radioLabels": [
+            {
+                "name": "Psychological_Disease_Depression",
+                "setAll": false,
+                "value": "Depression"
+            },
+            {
+                "name": "Psychological_disease_ADD_OCD_bipolar_schizophrenia",
+                "setAll": false,
+                "value": "ADD, OCD, bipolar, schizophrenia"
+            }
+        ],
+        "radioLabelsWidth": 6,
+        "readOnly": false,
+        "required": false,
+        "show": null
+    },
+    "Type": "Radio Group",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Risk/Assessment/English/Psychological_disease_Group"
+}

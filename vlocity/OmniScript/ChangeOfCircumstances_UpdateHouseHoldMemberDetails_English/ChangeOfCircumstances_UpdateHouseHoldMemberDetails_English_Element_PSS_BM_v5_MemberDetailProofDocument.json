@@ -1,0 +1,69 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": true,
+    "MayEdit": true,
+    "Name": "PSS_BM_v5_MemberDetailProofDocument",
+    "OmniProcessId": {
+        "Name": "Update HouseHold Member Details",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/UpdateHouseHoldMemberDetails/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "PSS_BM_v5_HouseholdMemberDetails",
+        "OmniProcessId": {
+            "Name": "Update HouseHold Member Details",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/UpdateHouseHoldMemberDetails/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/UpdateHouseHoldMemberDetails/English/PSS_BM_v5_HouseholdMemberDetails",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "PSS_BM_v5_HouseholdMemberDetails",
+    "ParentElementType": "Edit Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "conditionType": "Hide if False",
+        "contentParentId": [
+        ],
+        "controlWidth": 12,
+        "disOnTplt": true,
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "extraPayload": {
+        },
+        "help": false,
+        "helpText": "",
+        "label": "Upload Proof",
+        "remoteClass": "",
+        "remoteMethod": "",
+        "remoteOptions": {
+        },
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "No change",
+                        "field": "PSS_BM_v5_HouseholdMemberDetails|n:PSS_BM_v5_MemberSectionAction"
+                    }
+                ]
+            }
+        },
+        "uploadContDoc": true
+    },
+    "Type": "File",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/UpdateHouseHoldMemberDetails/English/PSS_BM_v5_MemberDetailProofDocument"
+}

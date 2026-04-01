@@ -1,0 +1,59 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetValues10",
+    "OmniProcessId": {
+        "Name": "LPI Foster Care Application Form",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LPIFosterCare/Application/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "AvailabilitySchools",
+        "OmniProcessId": {
+            "Name": "LPI Foster Care Application Form",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LPIFosterCare/Application/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LPIFosterCare/Application/English/AvailabilitySchools",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "AvailabilitySchools",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 1,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "AvailabilitySchools": {
+                "BedroomAvailability": "Yes",
+                "Elementary": "Muffley Elementary School",
+                "FosterCareProgram": "Short-Term Care",
+                "High": "Eisenhower High School",
+                "Middle": "Thomas Jefferson Middle School",
+                "Number1": 2,
+                "Radio3": "Yes"
+            }
+        },
+        "label": ">>>",
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LPIFosterCare/Application/English/SetValues10"
+}

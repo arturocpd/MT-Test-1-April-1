@@ -1,0 +1,83 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "AssessmentIndicatorType",
+    "OmniProcessId": {
+        "Name": "QuickBuild Inspection CSV Loader",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/QuickBuild/InspectionCSVLoader/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "InspectionComponents",
+        "OmniProcessId": {
+            "Name": "QuickBuild Inspection CSV Loader",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/QuickBuild/InspectionCSVLoader/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/QuickBuild/InspectionCSVLoader/English/InspectionComponents",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "InspectionComponents",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 2,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Type",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "Boolean",
+                "value": "Boolean"
+            },
+            {
+                "autoAdv": null,
+                "name": "Number",
+                "value": "Number"
+            },
+            {
+                "autoAdv": null,
+                "name": "Text",
+                "value": "Text"
+            },
+            {
+                "autoAdv": null,
+                "name": "Picklist",
+                "value": "Picklist"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/QuickBuild/InspectionCSVLoader/English/AssessmentIndicatorType"
+}

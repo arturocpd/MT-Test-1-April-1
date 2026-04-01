@@ -1,0 +1,78 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "TransitOrientedDevelopmentRequirements",
+    "OmniProcessId": {
+        "Name": "Community Development Grant",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Grants/BlockMatchingGrant/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "TransitOrientedDevelopmentStep",
+        "OmniProcessId": {
+            "Name": "Community Development Grant",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Grants/BlockMatchingGrant/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Grants/BlockMatchingGrant/English/TransitOrientedDevelopmentStep",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "TransitOrientedDevelopmentStep",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 10,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "label": "Includes:",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "Yes",
+                "setAll": false,
+                "value": "Yes"
+            },
+            {
+                "name": "No",
+                "setAll": false,
+                "value": "No"
+            }
+        ],
+        "radioLabels": [
+            {
+                "name": "HighQualityTransit",
+                "value": "At least one transit station/stop served by high quality transit at time of application submittal?"
+            },
+            {
+                "name": "AffordableHousingDevelopmentHighQualityTransit",
+                "value": "An Affordable Housing Development located no farther than one-half mile from a transit station/stop served by high quality transit?"
+            }
+        ],
+        "radioLabelsWidth": "9",
+        "readOnly": false,
+        "required": false,
+        "show": null
+    },
+    "Type": "Radio Group",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Grants/BlockMatchingGrant/English/TransitOrientedDevelopmentRequirements"
+}

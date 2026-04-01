@@ -1,0 +1,6 @@
+[
+    "DataRaptor/FetchesSubmittedApplicationURL1",
+    "DataRaptor/PSSFetchIndividualApplicationStatus",
+    "DataRaptor/PSSGetParentIA",
+    "IntegrationProcedure/ChangeOfCircumstances_FetchCurrentBenefitAssignments"
+]

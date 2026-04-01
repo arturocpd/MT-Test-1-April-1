@@ -1,0 +1,41 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": true,
+    "MayEdit": true,
+    "Name": "SetValuesForExpressionSet",
+    "OmniProcessId": {
+        "Name": "Food Referral Intake Eligibility Questions",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/FoodReferral/IntakeEligibility/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "ForExpressionSet": {
+                "GrossHouseholdIncome": "=%Monthly_Income%",
+                "HouseholdSize": "=%Household_Size%",
+                "NetIncome": "=%Monthly_Income% - %Rent_or_Mortage% - %Utility_Expense% - %Child_Care_Expenses% - %Medical_Expenses%"
+            }
+        },
+        "label": "SetValuesForExpressionSet",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/FoodReferral/IntakeEligibility/English/SetValuesForExpressionSet"
+}

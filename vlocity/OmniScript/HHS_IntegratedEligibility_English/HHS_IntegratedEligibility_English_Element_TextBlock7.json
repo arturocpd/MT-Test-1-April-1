@@ -1,0 +1,41 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "TextBlock7",
+    "OmniProcessId": {
+        "Name": "Children with Disabilities Family Support",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/HHS/IntegratedEligibility/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "DescriptionBlock",
+        "OmniProcessId": {
+            "Name": "Children with Disabilities Family Support",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/HHS/IntegratedEligibility/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/HHS/IntegratedEligibility/English/DescriptionBlock",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "DescriptionBlock",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock7",
+        "sanitize": false,
+        "text": "<h4 class=\"p1\">Extraordinary Child Care and Babysitting Costs</h4>\n<p class=\"p1\">If the child does not require specialized childcare then no cost will be allowed.</p>\n<p class=\"p1\">&nbsp;</p>\n<p class=\"p1\"><strong>Extraordinary Hourly Cost For Specialized Care</strong></p>\n<p class=\"p1\">If your child with special needs is 12 years of age or older and still requires a babysitter, childcare will be approved at cost.</p>\n<p class=\"p1\">&nbsp;</p>\n<p class=\"p1\"><strong>Babysitting Costs</strong></p>\n<p class=\"p1\">The babysitting for other children in the family, less than 12 years of age, while taking the identified child to a doctor's appointment or meetings relating to the disability may be included.</p>\n<p class=\"p1\">&nbsp;</p>\n<p class=\"p1\"><strong>Specialized Day Care</strong></p>\n<p class=\"p1\">Day care costs may be claimed when integration into a specific program has been recommended by a professional (recommendation and receipts are required).</p>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/HHS/IntegratedEligibility/English/TextBlock7"
+}

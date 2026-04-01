@@ -1,0 +1,116 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "LicenseType",
+    "OmniProcessId": {
+        "Name": "Cannabis Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/CannabisApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "TypeOfApplication",
+        "OmniProcessId": {
+            "Name": "Cannabis Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/CannabisApplication/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/CannabisApplication/English/TypeOfApplication",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "TypeOfApplication",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": false,
+        "imageCountInRow": 3,
+        "label": "License Type",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "Cultivator",
+                "value": "Cultivator"
+            },
+            {
+                "autoAdv": null,
+                "name": "Conditional Cultivator",
+                "value": "Conditional Cultivator"
+            },
+            {
+                "autoAdv": null,
+                "name": "Nursery",
+                "value": "Nursery"
+            },
+            {
+                "autoAdv": null,
+                "name": "Processor",
+                "value": "Processor"
+            },
+            {
+                "autoAdv": null,
+                "name": "Distributor",
+                "value": "Distributor"
+            },
+            {
+                "autoAdv": null,
+                "name": "Cooperative",
+                "value": "Cooperative"
+            },
+            {
+                "autoAdv": null,
+                "name": "Microbusiness",
+                "value": "Microbusiness"
+            },
+            {
+                "autoAdv": null,
+                "name": "Retail Dispensary",
+                "value": "Retail Dispensary"
+            },
+            {
+                "autoAdv": null,
+                "name": "On-Site Consumption",
+                "value": "On-Site Consumption"
+            },
+            {
+                "autoAdv": null,
+                "name": "Delivery",
+                "value": "Delivery"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": true,
+        "show": null
+    },
+    "Type": "Radio",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/CannabisApplication/English/LicenseType"
+}

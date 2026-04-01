@@ -1,0 +1,85 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "EmploymentStatus",
+    "OmniProcessId": {
+        "Name": "Find Applicable Benefits",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitAssistance/AssessEligibility/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "BenefitApplicantDetails",
+        "OmniProcessId": {
+            "Name": "Find Applicable Benefits",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitAssistance/AssessEligibility/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitAssistance/AssessEligibility/English/BenefitApplicantDetails",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "BenefitApplicantDetails",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 7,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "helpTextPos": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "What is your current employment status?",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "EmployedFullTime",
+                "value": "Employed (full-time)"
+            },
+            {
+                "name": "EmployedPartTime",
+                "value": "Employed (part-time or seasonal)"
+            },
+            {
+                "name": "UnderEmployed",
+                "value": "Under-employed (working for very low wages)"
+            },
+            {
+                "name": "Unemployed",
+                "value": "Unemployed or about to become unemployed"
+            },
+            {
+                "name": "Retired",
+                "value": "Retired or not seeking employment"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": true,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitAssistance/AssessEligibility/English/EmploymentStatus"
+}

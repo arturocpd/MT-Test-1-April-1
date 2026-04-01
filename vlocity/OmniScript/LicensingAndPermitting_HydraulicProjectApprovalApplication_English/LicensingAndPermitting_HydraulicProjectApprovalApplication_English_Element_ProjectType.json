@@ -1,0 +1,197 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "ProjectType",
+    "OmniProcessId": {
+        "Name": "Hydraulic Project Approval Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ProjectIdentificationStep",
+        "OmniProcessId": {
+            "Name": "Hydraulic Project Approval Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English/ProjectIdentificationStep",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ProjectIdentificationStep",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "helpTextPos": "",
+        "hide": false,
+        "horizontalMode": true,
+        "imageCountInRow": 3,
+        "label": "Project Type(s) (check all that apply):",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "developerName": null,
+                "name": "Aquatic Plant Control",
+                "value": "Aquatic Plant Control"
+            },
+            {
+                "developerName": null,
+                "name": "Bank Protection",
+                "value": "Bank Protection"
+            },
+            {
+                "developerName": null,
+                "name": "Barge Landing",
+                "value": "Barge Landing"
+            },
+            {
+                "developerName": null,
+                "name": "Boat Access",
+                "value": "Boat Access"
+            },
+            {
+                "developerName": null,
+                "name": "Buoy",
+                "value": "Buoy"
+            },
+            {
+                "developerName": null,
+                "name": "Channel Change/Realignment",
+                "value": "Channel Change/Realignment"
+            },
+            {
+                "developerName": null,
+                "name": "Diversion Structure",
+                "value": "Diversion Structure"
+            },
+            {
+                "developerName": null,
+                "name": "Dredging",
+                "value": "Dredging"
+            },
+            {
+                "developerName": null,
+                "name": "Fish Trap or Diversion Weir",
+                "value": "Fish Trap or Diversion Weir"
+            },
+            {
+                "developerName": null,
+                "name": "Fishways",
+                "value": "Fishways"
+            },
+            {
+                "developerName": null,
+                "name": "Foot Access - beach stairs, cable car, etc.",
+                "value": "Foot Access - beach stairs, cable car, etc."
+            },
+            {
+                "developerName": null,
+                "name": "Garbage and Debris Removal",
+                "value": "Garbage and Debris Removal"
+            },
+            {
+                "developerName": null,
+                "name": "Gravel Extraction",
+                "value": "Gravel Extraction"
+            },
+            {
+                "developerName": null,
+                "name": "Habitat",
+                "value": "Habitat"
+            },
+            {
+                "developerName": null,
+                "name": "Logging",
+                "value": "Logging"
+            },
+            {
+                "developerName": null,
+                "name": "Outfall structure",
+                "value": "Outfall structure"
+            },
+            {
+                "developerName": null,
+                "name": "Overwater Structure",
+                "value": "Overwater Structure"
+            },
+            {
+                "developerName": null,
+                "name": "Shoreline Armoring - Marine",
+                "value": "Shorelime Armoring - Marine"
+            },
+            {
+                "developerName": null,
+                "name": "Utility Crossing",
+                "value": "Utility Crossing"
+            },
+            {
+                "developerName": null,
+                "name": "Water Crossing Structure",
+                "value": "Water Crossing Structure"
+            },
+            {
+                "developerName": null,
+                "name": "Beaver Dam Mopdification",
+                "value": "Beaver Dam Modification"
+            },
+            {
+                "developerName": null,
+                "name": "Dock Maintenance/Repair",
+                "value": "Doc Maintenance/Repair"
+            },
+            {
+                "developerName": null,
+                "name": "Fish Screen Maintenance or Replacement",
+                "value": "Fish Screen Maintenance or Replacement"
+            },
+            {
+                "developerName": null,
+                "name": "Scientific Instruments",
+                "value": "Scientific Instruments"
+            },
+            {
+                "developerName": null,
+                "name": "Suction Dredging",
+                "value": "Suction Dredging"
+            },
+            {
+                "developerName": null,
+                "name": "Other",
+                "value": "Other"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null
+    },
+    "Type": "Multi-select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English/ProjectType"
+}

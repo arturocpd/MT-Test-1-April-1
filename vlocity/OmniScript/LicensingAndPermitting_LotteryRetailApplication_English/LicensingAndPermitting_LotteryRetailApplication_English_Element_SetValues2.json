@@ -1,0 +1,73 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetValues2",
+    "OmniProcessId": {
+        "Name": "Lottery Retail Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/LotteryRetailApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "BusinessDetails",
+        "OmniProcessId": {
+            "Name": "Lottery Retail Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/LotteryRetailApplication/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/LotteryRetailApplication/English/BusinessDetails",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "BusinessDetails",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 1,
+        "elementValueMap": {
+            "ClosedFri": "0000-0800",
+            "ClosedMon": "0000-0800",
+            "ClosedSat": "0000-0800",
+            "ClosedSun": "1800-0800",
+            "ClosedThur": "0000-0800",
+            "ClosedTues": "0000-0800",
+            "ClosedWed": "0000-0800",
+            "CurrentRetailer": "No",
+            "CurrentlyHaveKeno": "No",
+            "CurrentlyHaveVendingMachine": "No",
+            "HaveLiquorLicense": "Yes",
+            "KenoApproved": "Yes",
+            "LiquorLicenseNumber": "3294939329",
+            "OpenFri": "0800-0000",
+            "OpenMon": "0800-0000",
+            "OpenSat": "0800-0000",
+            "OpenSun": "0800-1800",
+            "OpenThur": "0800-0000",
+            "OpenTues": "0800-0000",
+            "OpenWed": "0800-0000",
+            "RegisteredSecretaryOfState": "Yes",
+            "Seasonal": "No",
+            "TypeOfBusiness": "Sole Proprietor"
+        },
+        "label": ">>",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/LotteryRetailApplication/English/SetValues2"
+}

@@ -1,0 +1,77 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "WorkerCapacityValueCheck",
+    "OmniProcessId": {
+        "Name": "File A Claim",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/SocialInsurance/FileClaim/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementErrorMap": {
+            "PSS_SI_v1_WorkerCapacity": "Enter a value in the range from 0 through 100."
+        },
+        "label": "Worker Capacity Value Check",
+        "message": {
+        },
+        "pubsub": false,
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "<>",
+                                    "data": null,
+                                    "field": "PSS_SI_v1_WorkerCapacity"
+                                },
+                                {
+                                    "condition": "<",
+                                    "data": "0",
+                                    "field": "PSS_SI_v1_WorkerCapacity"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "<>",
+                                    "data": null,
+                                    "field": "PSS_SI_v1_WorkerCapacity"
+                                },
+                                {
+                                    "condition": ">",
+                                    "data": "100",
+                                    "field": "PSS_SI_v1_WorkerCapacity"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "Type": "Set Errors",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/SocialInsurance/FileClaim/English/WorkerCapacityValueCheck"
+}

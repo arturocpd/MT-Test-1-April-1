@@ -1,0 +1,48 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "GuardSocialSecurityNumber",
+    "OmniProcessId": {
+        "Name": "Licensing and Permitting Security Guard Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/SecurityGuard/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "NoticeOfEmployment",
+        "OmniProcessId": {
+            "Name": "Licensing and Permitting Security Guard Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/SecurityGuard/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/SecurityGuard/English/NoticeOfEmployment",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "NoticeOfEmployment",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "controlWidth": 6,
+        "label": "Guard Social Security Number",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Yes",
+                        "field": "WillEmploymentCommenceWithTheFilingOfYourApplication"
+                    }
+                ]
+            }
+        }
+    },
+    "Type": "Text",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/SecurityGuard/English/GuardSocialSecurityNumber"
+}

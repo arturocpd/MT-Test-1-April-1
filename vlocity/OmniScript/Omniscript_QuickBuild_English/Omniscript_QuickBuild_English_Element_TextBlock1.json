@@ -1,0 +1,42 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "TextBlock1",
+    "OmniProcessId": {
+        "Name": "Omniscript Quick Build",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Omniscript/QuickBuild/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Instructions",
+        "OmniProcessId": {
+            "Name": "Omniscript Quick Build",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Omniscript/QuickBuild/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Omniscript/QuickBuild/English/Instructions",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Instructions",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock1",
+        "sanitize": false,
+        "show": null,
+        "text": "<p>This tool allows you to quickly create an OmniScript from a Google Spreadsheet, wherein the spreadsheet the desired fields and steps are specified.</p>\n<ol>\n<li>If you have not already done so, begin by first making a copy of this <a href=\"https://docs.google.com/spreadsheets/d/1nfKXQXDYLsNT6qbhTxZfLq3sQ2QlOmhbs8bd04mRnsE/edit?usp=sharing\" target=\"_blank\" rel=\"noopener\">Google Sheet</a></li>\n<li>In your copy, for each field use a row in the spreadsheet to define the field and the corresponding step it should be displayed in.\n<ul>\n<li>Specify the name of the field in the <code>Fields</code> (Column B).&nbsp; The Element Label and Element Name will be generated from Column B.</li>\n<li>Specify the data type of the field in the <code>ElementType</code> (Column E).</li>\n<li>Specify what <code>Step</code> (column G) the field should be displayed in.&nbsp;\n<ul>\n<li>Note: Steps should be sequential.</li>\n</ul>\n</li>\n<li>If the type is a Select or Radio, use a Pipe (|) to create a delimited set of options in the <code>ElementOptions</code> column. &nbsp;\n<ul>\n<li>For example: &nbsp;New|Renewal|Change will result in 3 options values for the Radio or Select</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>Repeat for each field, add new rows as necessary</li>\n<li>Once all rows are complete, Select All and hit Copy.</li>\n<li>Then Select All and use Edit, Paste Special, Paste Values only.</li>\n<li>Download the file as a CSV</li>\n</ol>\n<p>A completed example is <a href=\"https://docs.google.com/spreadsheets/d/1AsHpFinhcnWeWQ2RkKhDqAsAO7FRfNI9zCkB1RAaQP8/edit#gid=0\" target=\"_blank\" rel=\"noopener\">here</a>.</p>\n<p>If you run into issues with this tool, please reach out via <a href=\"https://salesforce-internal.slack.com/archives/C01N08WCENN\" target=\"_blank\" rel=\"noopener\"># selling-public-sector-solutions</a>.</p>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Omniscript/QuickBuild/English/TextBlock1"
+}

@@ -1,0 +1,80 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "PDFGen",
+    "OmniProcessId": {
+        "Name": "DOT SF-425 Financial Reporting",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/DOTGrants/FinancialReport/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "attachmentName": "Financial Report Filled",
+        "attachmentParentId": "%DRId_GPSGFinancial_Reports__c%",
+        "businessCategory": "",
+        "businessEvent": "",
+        "controlWidth": 12,
+        "dateFormat": "MM/dd/yyyy",
+        "dateTimeFormat": "",
+        "displayHeight": 700,
+        "displayWidth": 600,
+        "enableActionMessage": false,
+        "enableDefaultAbort": false,
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "failureAbortLabel": "Abort",
+        "failureAbortMessage": "Are you sure?",
+        "failureGoBackLabel": "Go Back",
+        "failureNextLabel": "Continue",
+        "inProgressMessage": "In Progress",
+        "label": "Generate PDF",
+        "message": {
+        },
+        "postMessage": "Done",
+        "preTransformBundle": "DRTransformSF425V2",
+        "pubsub": false,
+        "readOnly": false,
+        "redirectNextLabel": "Next",
+        "redirectNextWidth": 3,
+        "redirectPageName": "",
+        "redirectPreviousLabel": "Previous",
+        "redirectPreviousWidth": 3,
+        "redirectTemplateUrl": "vlcPDF.html",
+        "remoteTimeout": 30000,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "PDFGen",
+                        "field": "ConsentChoice"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "showPopup": false,
+        "ssm": false,
+        "templateName": "SF425_v2_pdf",
+        "timeFormat": "",
+        "validationRequired": "Submit",
+        "wpm": false
+    },
+    "Type": "PDF Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/DOTGrants/FinancialReport/English/PDFGen"
+}

@@ -1,0 +1,61 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetValues1",
+    "OmniProcessId": {
+        "Name": "Lottery Retail Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/LotteryRetailApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ApplicationDetails",
+        "OmniProcessId": {
+            "Name": "Lottery Retail Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/LotteryRetailApplication/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/LotteryRetailApplication/English/ApplicationDetails",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ApplicationDetails",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 1,
+        "elementValueMap": {
+            "EIN": "98-3939392",
+            "ManagerFirstName": "Randy",
+            "ManagerLastName": "Duckwall",
+            "PrefillAddress": "711 Bar Harbor Road,Trenton,ME,04605,United States",
+            "StoreEmail": "Jennifer@maxmule.com",
+            "StoreName": "Max Mule",
+            "StoreOwnerFirstName": "Jennifer",
+            "StoreOwnerLastName": "Simmons",
+            "StorePhone": "6039683838",
+            "TypeOfApplication": "New Retailer",
+            "TypeOfProducts": "KENO 603/On-Line Games/Instant Games"
+        },
+        "label": ">>",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/LotteryRetailApplication/English/SetValues1"
+}

@@ -1,0 +1,7 @@
+[
+    "DataRaptor/DRGetIndividualApplicationID",
+    "DataRaptor/DRUpdateFileNameAuthoritytoOperate",
+    "DataRaptor/DRUpdateFileNameInsurance",
+    "DataRaptor/DRUpdateFileNameStaffingCertification",
+    "DataRaptor/DRUpdateGMMatchingAFwithDocuments"
+]

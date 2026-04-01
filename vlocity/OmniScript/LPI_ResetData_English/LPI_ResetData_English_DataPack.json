@@ -1,0 +1,31 @@
+{
+    "CurrencyIsoCode": "USD",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": false,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "MayEdit": true,
+    "Name": "LPI Reset Data",
+    "OmniProcessElement": [
+        "LPI_ResetData_English_Element_Reset.json",
+        "LPI_ResetData_English_Element_Validate.json",
+        "LPI_ResetData_English_Element_DemoReset.json",
+        "LPI_ResetData_English_Element_Confirmation.json",
+        "LPI_ResetData_English_Element_TextBlock1.json",
+        "LPI_ResetData_English_Element_NavigateAction1.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "LPI_ResetData_English_PropertySetConfig.json",
+    "SubType": "ResetData",
+    "Type": "LPI",
+    "UniqueName": "LPI_ResetData_English_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/LPI/ResetData/English"
+}

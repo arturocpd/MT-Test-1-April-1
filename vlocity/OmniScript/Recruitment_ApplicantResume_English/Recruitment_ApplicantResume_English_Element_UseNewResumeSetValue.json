@@ -1,0 +1,52 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": false,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": true,
+    "MayEdit": true,
+    "Name": "UseNewResumeSetValue",
+    "OmniProcessId": {
+        "Name": "Applicant Resume",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Recruitment/ApplicantResume/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "ResumetoSend": "%UploadResume:Resume%"
+        },
+        "label": "UseNewResumeSetValue",
+        "message": {
+        },
+        "pubsub": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Upload New Resume",
+                        "field": "UseExistingResume"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "true",
+                        "field": "isApplicationSubmitted"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Recruitment/ApplicantResume/English/UseNewResumeSetValue"
+}

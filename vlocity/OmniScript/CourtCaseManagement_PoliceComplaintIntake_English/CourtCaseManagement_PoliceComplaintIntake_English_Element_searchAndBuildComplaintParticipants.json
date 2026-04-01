@@ -1,0 +1,51 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "searchAndBuildComplaintParticipants",
+    "OmniProcessId": {
+        "Name": "PoliceComplaintIntake",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/CourtCaseManagement/PoliceComplaintIntake/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "CCM_Participants",
+        "OmniProcessId": {
+            "Name": "PoliceComplaintIntake",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/CourtCaseManagement/PoliceComplaintIntake/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/CourtCaseManagement/PoliceComplaintIntake/English/CCM_Participants",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "CCM_Participants",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "bStandalone": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "customAttributes": [
+            {
+                "name": "record-list",
+                "source": "%data%"
+            },
+            {
+                "name": "rtid",
+                "source": "%RecordType:Id%"
+            }
+        ],
+        "hide": false,
+        "label": "Search and Build Complaint Participants",
+        "lwcName": "selectAndBuildComplaintParticipantsLongIntake",
+        "show": null
+    },
+    "Type": "Custom Lightning Web Component",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/CourtCaseManagement/PoliceComplaintIntake/English/searchAndBuildComplaintParticipants"
+}

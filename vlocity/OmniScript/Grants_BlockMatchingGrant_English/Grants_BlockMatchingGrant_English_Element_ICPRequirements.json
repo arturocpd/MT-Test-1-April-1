@@ -1,0 +1,82 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "ICPRequirements",
+    "OmniProcessId": {
+        "Name": "Community Development Grant",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Grants/BlockMatchingGrant/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "IntegratedCommunityProjectStep",
+        "OmniProcessId": {
+            "Name": "Community Development Grant",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Grants/BlockMatchingGrant/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Grants/BlockMatchingGrant/English/IntegratedCommunityProjectStep",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "IntegratedCommunityProjectStep",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "label": "Integrated Community Project Area Requirements",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "Yes",
+                "setAll": false,
+                "value": "Yes"
+            },
+            {
+                "name": "No",
+                "setAll": false,
+                "value": "No"
+            }
+        ],
+        "radioLabels": [
+            {
+                "name": "IncludesAtLeastOneTransitStation",
+                "value": "Includes at least one transit station/stop?"
+            },
+            {
+                "name": "BeServedByAtLeastOneModeOfQualifyingTransit",
+                "value": "Be served by at least one mode of qualifying transit that does not meet the requirements of high quality transit at time of application submittal?"
+            },
+            {
+                "name": "LocatedWithinOneHalfMileOfTransit",
+                "value": "If Integrated Community Project proposes to fund an affordable housing development with program funds, will housing be located within one-half mile of a transit station/stop?"
+            }
+        ],
+        "radioLabelsWidth": "8",
+        "readOnly": false,
+        "required": false,
+        "show": null
+    },
+    "Type": "Radio Group",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Grants/BlockMatchingGrant/English/ICPRequirements"
+}

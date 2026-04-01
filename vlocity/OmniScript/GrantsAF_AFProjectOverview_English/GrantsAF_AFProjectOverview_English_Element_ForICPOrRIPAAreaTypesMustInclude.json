@@ -1,0 +1,38 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "ForICPOrRIPAAreaTypesMustInclude",
+    "OmniProcessId": {
+        "Name": "AFProjectOverview",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GrantsAF/AFProjectOverview/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ICPorRIPA",
+        "OmniProcessId": {
+            "Name": "AFProjectOverview",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/GrantsAF/AFProjectOverview/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/GrantsAF/AFProjectOverview/English/ICPorRIPA",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ICPorRIPA",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "controlWidth": 12,
+        "label": "",
+        "show": null,
+        "text": "<p>For <strong>Integrated Community Project </strong>or <strong>Rural Innovation Project</strong>, the projects must include within the project area: a Sustainable Transportation Infrastructure Project and an Affordable Housing Development and/or Housing Related Infrastructure Project - Please check all boxes that apply:</p>"
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GrantsAF/AFProjectOverview/English/ForICPOrRIPAAreaTypesMustInclude"
+}

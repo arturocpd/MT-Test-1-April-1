@@ -1,0 +1,41 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "InstructionsText",
+    "OmniProcessId": {
+        "Name": "Organic Crop Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/OrganicCropApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Instructions",
+        "OmniProcessId": {
+            "Name": "Organic Crop Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/OrganicCropApplication/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/OrganicCropApplication/English/Instructions",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Instructions",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "sanitize": false,
+        "text": "<div id=\"form-element-wrapper_25\" class=\"formFieldWrapper  static-html-wrapper style-selector_25\" data-field-code=\"\" aria-hidden=\"false\">\n<div class=\"form-static-html form-item\">\n<p><strong>Organic Crop Application:</strong></p>\n<div class=\"page\" title=\"Page 1\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Please fill out this form if you are requesting organic farm/crop certification. Use additional sheets if necessary. Sign this form. You must submit farm maps and field history sheets with this application/plan. Attach all other supporting documents (soil, tissue or water tests, rented or recently purchased land histories, etc.) as required.</p>\n<p>Please contact us&nbsp;if you have any additional questions.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"form-section-buttons\">&nbsp;</div>\n<div class=\"form-section-buttons\">Complete the following Application and include the supporting documentation as listed when submitting your application.</div>\n<div class=\"form-section-buttons\">&nbsp;</div>\n<div class=\"form-section-buttons\"><strong>Press Next to Continue to begin the application.</strong></div>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/OrganicCropApplication/English/InstructionsText"
+}

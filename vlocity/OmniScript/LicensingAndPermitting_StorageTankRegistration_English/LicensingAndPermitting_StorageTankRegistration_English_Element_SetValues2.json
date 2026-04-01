@@ -1,0 +1,75 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetValues2",
+    "OmniProcessId": {
+        "Name": "Licensing and Permitting Tank Registration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/StorageTankRegistration/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "TankDetails",
+        "OmniProcessId": {
+            "Name": "Licensing and Permitting Tank Registration",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/StorageTankRegistration/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/StorageTankRegistration/English/TankDetails",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "TankDetails",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 1,
+        "elementValueMap": {
+            "ChangePermitType": null,
+            "CollisionProtection": "Bollards",
+            "Dispensers": 292,
+            "ElectricalWiringAndEquipment": "Yes",
+            "FloodZone": "No",
+            "Listing": "UL 142",
+            "MeansWillBeUsedToSecureYesNoTheTankAgainstMoving": null,
+            "NearestImportantBuilding": 130,
+            "NearestPropertyLine": 403,
+            "NearestSideOfAPublicWay": 504,
+            "NominalCapacityOfTank": 1200,
+            "OtherTanks": 83,
+            "PrivateUseOfTank": "Automotive",
+            "PropaneStorage": 828,
+            "PublicUseOfTank": "Automotive",
+            "SecondaryContainment": "None",
+            "Security": "Chain Link Fence",
+            "SpecifyTheListing": null,
+            "TankLeakDetection": "Automatic Tank Gauge",
+            "TankMaterial": "Steel",
+            "TankNumber": "949392939",
+            "TankOrientation": "Horizontal",
+            "TypeOfPermit": "New Aboveground Storage Facility",
+            "UseOfTank": "Public Fueling",
+            "Vault": "No",
+            "WeatherProtection": "None"
+        },
+        "label": ">>",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/StorageTankRegistration/English/SetValues2"
+}

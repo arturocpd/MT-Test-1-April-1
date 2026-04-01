@@ -1,0 +1,42 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "TextBlock10",
+    "OmniProcessId": {
+        "Name": "Psychiatric Residential Treatment Facility",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/PsychiatricResidentialTreatmentFacility/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Acknowledgement",
+        "OmniProcessId": {
+            "Name": "Psychiatric Residential Treatment Facility",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/PsychiatricResidentialTreatmentFacility/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/PsychiatricResidentialTreatmentFacility/English/Acknowledgement",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Acknowledgement",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock10",
+        "sanitize": false,
+        "show": null,
+        "text": "<p class=\"p1\">I/We, the undersigned am [are the person(s)] named as the Applicant or the authorized representative(s) of the owner listed above.&nbsp;&nbsp;I/We have read the laws and regulations governing the operation of this facility and it is the intention of this applicant to comply.</p>\n<p class=\"p1\">I/We&nbsp;understand that I/we are responsible for meeting and maintaining compliance with all applicable childcare licensing laws and regulations at&nbsp;all times.</p>\n<p class=\"p1\">I/We affirm that I/we have developed a written statement of philosophy, purpose, program orientation, and policy of operation including the agency&rsquo;s position on disciplinary methods to be used by staff. Corporal punishment is prohibited. The statement contains long and short term goals and is available to the designated representative of the State Department for Aging and Disability Services, and to the public.</p>\n<p class=\"p1\">I/We understand that a new application may take up to 90 days for processing by DADS once DADS receives a complete application.</p>\n<p class=\"p1\">I/We understand that I/we are not authorized to provide services related to child placing prior to receiving a Temporary Permit or License from DADS.</p>\n<p class=\"p1\">In accordance with Statutes Annotated 44-109, I/we shall not refuse service to any person for reason of race, religion, color, sex, physical handicap, national origin or ancestry.</p>\n<p class=\"p1\"></p>\n<p></p>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/PsychiatricResidentialTreatmentFacility/English/TextBlock10"
+}

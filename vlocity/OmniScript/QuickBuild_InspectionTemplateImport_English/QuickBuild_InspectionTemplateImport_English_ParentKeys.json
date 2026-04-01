@@ -1,0 +1,11 @@
+[
+    "DataRaptor/QuickBuildDeserializeJSONImport",
+    "DataRaptor/QuickBuildFinalizeTemplateVersion",
+    "DataRaptor/QuickBuildMigrateInspectionTemplate",
+    "DataRaptor/QuickBuildMigrateInspectionTemplateAddAssessmentTaskIndJunction",
+    "DataRaptor/QuickBuildMigrateInspectionTemplateAddRegAssessmentIndJunction",
+    "DataRaptor/QuickBuildMigrateInspectionTemplateAddSignature",
+    "DataRaptor/QuickBuildMigrationAddAssessmentIndicatorDefinedValues",
+    "DataRaptor/QuickBuildMigrationGetJunctionObjectsToAdd",
+    "IntegrationProcedure/PSUtility_CallUtilityLogWebService"
+]

@@ -1,0 +1,66 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetValues1",
+    "OmniProcessId": {
+        "Name": "Special Event Permit",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/SpecialEvent/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "EventOverview",
+        "OmniProcessId": {
+            "Name": "Special Event Permit",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/SpecialEvent/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/SpecialEvent/English/EventOverview",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "EventOverview",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 1,
+        "elementValueMap": {
+            "AnnualEvent": false,
+            "ApplicantFirstName": "Jennifer",
+            "ApplicantLastName": "Simmons",
+            "CityCouncilDistrict": "5",
+            "DateOfApplication": "=TODAY()",
+            "DateOfEvent": "=%FormulaDateEvent%",
+            "EventTitle": "Protest March",
+            "Exemption": true,
+            "OrgEmail": "jsimmons@mailinator.com",
+            "OrgPhone": "8300203929",
+            "PoliceArea": "East B",
+            "PrefillApplicantAddress": "11720 Plaza America Dr,Reston,VA,20190,United States",
+            "PrefillSponsoringOrgAddress": "11720 Plaza America Dr,Reston,VA,20190,United States",
+            "SetupDate": "=%FormulaDateEvent%",
+            "SponsoringOrganization": "Jennifer's Custom Creations",
+            "TearDownDate": "=%FormulaDateEvent%",
+            "TypeOfEvent": "Demonstration - March"
+        },
+        "label": ">>",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/SpecialEvent/English/SetValues1"
+}

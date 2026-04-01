@@ -1,0 +1,7 @@
+[
+    "DataRaptor/QuickBuildCheckForExistenceofOmniscript",
+    "DataRaptor/QuickBuildDeserializeJSONImportOSAssessment",
+    "DataRaptor/QuickBuildImportOSAssessmentQuestions",
+    "DataRaptor/QuickBuildOSAssessmentQuestionTransformProcessing",
+    "DataRaptor/QuickBuildOSAssessmentQuestionUpsert"
+]

@@ -1,0 +1,33 @@
+{
+    "CurrencyIsoCode": "USD",
+    "Description": "Application submission omniscript",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": false,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": true,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "MayEdit": true,
+    "Name": "ApplicationSubmissionConfirmation",
+    "OmniProcessElement": [
+        "ChangeOfCircumstances_ApplicationSubmissionConfirmation_English_Element_ApplicationSubmissionConfirmation.json",
+        "ChangeOfCircumstances_ApplicationSubmissionConfirmation_English_Element_ReturnedApplicationSubmissionMessage.json",
+        "ChangeOfCircumstances_ApplicationSubmissionConfirmation_English_Element_SubmissionConfirmationLineBreak1.json",
+        "ChangeOfCircumstances_ApplicationSubmissionConfirmation_English_Element_LineBreak1.json",
+        "ChangeOfCircumstances_ApplicationSubmissionConfirmation_English_Element_LineBreak2.json",
+        "ChangeOfCircumstances_ApplicationSubmissionConfirmation_English_Element_PSS_BM_COC_v1_ApplicationSubmissionConfirmationText.json",
+        "ChangeOfCircumstances_ApplicationSubmissionConfirmation_English_Element_PSS_BM_COC_v1_SubmittedApplicationDetailsText.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "ChangeOfCircumstances_ApplicationSubmissionConfirmation_English_PropertySetConfig.json",
+    "SubType": "ApplicationSubmissionConfirmation",
+    "Type": "ChangeOfCircumstances",
+    "UniqueName": "ChangeOfCircumstances_ApplicationSubmissionConfirmation_English_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ChangeOfCircumstances/ApplicationSubmissionConfirmation/English"
+}

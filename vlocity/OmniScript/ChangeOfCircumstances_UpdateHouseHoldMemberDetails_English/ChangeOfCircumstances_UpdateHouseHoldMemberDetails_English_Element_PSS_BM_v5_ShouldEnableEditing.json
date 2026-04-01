@@ -1,0 +1,49 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DesignerCustomizationType": "Discovery Framework",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": true,
+    "MayEdit": true,
+    "Name": "PSS_BM_v5_ShouldEnableEditing",
+    "OmniProcessId": {
+        "Name": "Update HouseHold Member Details",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/UpdateHouseHoldMemberDetails/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "PSS_BM_v5_HouseholdMemberDetails",
+        "OmniProcessId": {
+            "Name": "Update HouseHold Member Details",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/UpdateHouseHoldMemberDetails/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/UpdateHouseHoldMemberDetails/English/PSS_BM_v5_HouseholdMemberDetails",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "PSS_BM_v5_HouseholdMemberDetails",
+    "ParentElementType": "Edit Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataType": "Boolean",
+        "dateFormat": "MM-dd-yyyy",
+        "disOnTplt": false,
+        "expression": "%PSS_BM_v5_HouseholdMemberDetails|n:PSS_BM_v5_MemberSectionAction%=='Add member'||%PSS_BM_v5_HouseholdMemberDetails|n:PSS_BM_v5_MemberSectionAction%=='Update details of this member' || %PSS_BM_v5_HouseholdMemberDetails|n:PSS_BM_v5_MemberSectionAction%=='Remove member'",
+        "hide": true,
+        "hideGroupSep": false,
+        "inputWidth": 12,
+        "label": "ShouldEnableEditing",
+        "mask": null,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Formula",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/UpdateHouseHoldMemberDetails/English/PSS_BM_v5_ShouldEnableEditing"
+}

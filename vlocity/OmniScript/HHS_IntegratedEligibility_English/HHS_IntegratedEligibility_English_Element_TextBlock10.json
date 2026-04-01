@@ -1,0 +1,41 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "TextBlock10",
+    "OmniProcessId": {
+        "Name": "Children with Disabilities Family Support",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/HHS/IntegratedEligibility/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Documentation",
+        "OmniProcessId": {
+            "Name": "Children with Disabilities Family Support",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/HHS/IntegratedEligibility/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/HHS/IntegratedEligibility/English/Documentation",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Documentation",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock10",
+        "sanitize": false,
+        "text": "<h3>Please upload any additional Supporting Documentation as it relates to your application</h3>\n<p>We require the following documentation:</p>\n<ol>\n<li>Copy of your Canadian citizenship or immigration status in Canada (E.g. Canadian Birth Certificate OR if you were not born in Canada please provide a copy of your most recent immigration document)</li>\n<li class=\"p1\">Copy of your child&rsquo;s health card</li>\n<li class=\"p1\">Copy of MEDICAL documentation that details your child&rsquo;s disability or diagnosis, signed by a Physician or a Psychologist in Ontario (e.g. Psychological Assessment)</li>\n<li class=\"p1\">Copy of your Notice of Assessment (showing line 15000) for yourself (if single), or for you &amp; your spouse (if married or in a common-law relationship even if $0 amount)</li>\n<li class=\"p1\">Copy of 2019 Canada Child Benefit (CCB) Notice for the period July 2020 &ndash; June 2021. This document is mailed to you from Canada Revenue Agency in July each year. This document includes the name of your child/children and your marital status</li>\n<li class=\"p1\">Bank information or a void cheque for direct deposit</li>\n</ol>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/HHS/IntegratedEligibility/English/TextBlock10"
+}

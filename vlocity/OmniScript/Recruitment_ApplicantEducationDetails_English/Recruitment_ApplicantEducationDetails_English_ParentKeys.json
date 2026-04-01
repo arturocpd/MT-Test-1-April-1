@@ -1,0 +1,6 @@
+[
+    "DataRaptor/RecruitmentGetApplicantAccountID1",
+    "DataRaptor/RecruitmentTransformEducationDetailsForCertificate1",
+    "IntegrationProcedure/Recruitment_GetContentDocumentsForApplicantEducationalQualification",
+    "IntegrationProcedure/Recruitment_GetDataToPrefillEducationDetails"
+]

@@ -1,0 +1,54 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "ConfirmationOnline",
+    "OmniProcessId": {
+        "Name": "Business License Application Salon",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/BusinessSalon/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Confirmation",
+        "OmniProcessId": {
+            "Name": "Business License Application Salon",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/BusinessSalon/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/BusinessSalon/English/Confirmation",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Confirmation",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "ConfirmationOnline",
+        "sanitize": false,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "Yes",
+                        "field": "PayNow"
+                    }
+                ]
+            }
+        },
+        "text": "<div class=\"slds-text-heading_small slds-text-color_success slds-p-top_small slds-p-bottom_small\" style=\"text-align: center;\"><span class=\"ng-binding\" style=\"color: #169179;\">Your application was submitted and paid in full.</span></div>\n<div class=\"slds-text-heading_small slds-text-color_success slds-p-top_small slds-p-bottom_small\" style=\"text-align: center;\">&nbsp;</div>\n<div class=\"slds-text-heading_small slds-text-color_success slds-p-top_small slds-p-bottom_small\" style=\"text-align: center;\"><span class=\"ng-binding\" style=\"color: #000000;\">Your application ID is %CreatedApplicationId%.</span></div>\n<div class=\"slds-p-bottom_x-small\" style=\"text-align: center;\">\n<p>Amount paid</p>\n</div>\n<div class=\"slds-text-heading_large slds-p-bottom_medium\" style=\"text-align: center;\">\n<p><strong class=\"ng-binding\">$%totalFee%.00</strong></p>\n</div>\n<div class=\"slds-p-bottom_medium\">\n<p style=\"text-align: center;\">Use your application ID in any correspondence with us.</p>\n<p style=\"text-align: center;\">The payment details are displayed in the Fee Payment History page.</p>\n</div>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/BusinessSalon/English/ConfirmationOnline"
+}

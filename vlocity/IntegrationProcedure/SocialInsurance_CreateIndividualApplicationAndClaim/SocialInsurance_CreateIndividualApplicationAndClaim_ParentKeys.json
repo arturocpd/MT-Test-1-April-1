@@ -1,0 +1,5 @@
+[
+    "DataRaptor/PSSSocInsCreateClaim",
+    "DataRaptor/PSSSocInsCreateIndividualApplication",
+    "DataRaptor/PSSSocInsGetPersonAccountIDOfApplicant"
+]

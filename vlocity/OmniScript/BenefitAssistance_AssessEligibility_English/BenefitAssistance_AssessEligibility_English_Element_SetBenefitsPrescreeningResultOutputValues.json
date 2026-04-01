@@ -1,0 +1,50 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetBenefitsPrescreeningResultOutputValues",
+    "OmniProcessId": {
+        "Name": "Find Applicable Benefits",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitAssistance/AssessEligibility/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "data": {
+                "benefits": [
+                    {
+                        "description": "LIHEAP helps keep families safe and healthy through initiatives that assist families with energy costs. This program provides federally funded assistance to reduce the costs associated with home energy bills, energy crises, weatherization, and minor energy-related home repairs. LIHEAP initiatives help reduce the risk of health and safety problems that arise from unsafe heating and cooling situations and practices.",
+                        "isVisible": "%output|1:IsEligibleForBenefits%",
+                        "name": "Low Income Home Energy Assistance Program (LIHEAP)"
+                    },
+                    {
+                        "description": "This Financial Literacy Training helps people of all ages enhance their financial skills. It includes strategies and resources to understand, improve, and apply financial capabilities, such as personal finance management, budgeting, and investing.",
+                        "isVisible": "%output|1:IsEligibleForBenefits%",
+                        "name": "Financial Literacy Training"
+                    }
+                ]
+            }
+        },
+        "label": "Set Benefit Prescreening Results",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitAssistance/AssessEligibility/English/SetBenefitsPrescreeningResultOutputValues"
+}

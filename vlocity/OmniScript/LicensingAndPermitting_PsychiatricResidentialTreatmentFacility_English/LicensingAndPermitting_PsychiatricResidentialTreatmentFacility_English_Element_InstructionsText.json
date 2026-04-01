@@ -1,0 +1,41 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "InstructionsText",
+    "OmniProcessId": {
+        "Name": "Psychiatric Residential Treatment Facility",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/PsychiatricResidentialTreatmentFacility/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Instructions",
+        "OmniProcessId": {
+            "Name": "Psychiatric Residential Treatment Facility",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/PsychiatricResidentialTreatmentFacility/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/PsychiatricResidentialTreatmentFacility/English/Instructions",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Instructions",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "sanitize": false,
+        "text": "<div id=\"form-element-wrapper_25\" class=\"formFieldWrapper  static-html-wrapper style-selector_25\" data-field-code=\"\" aria-hidden=\"false\">\n<div class=\"form-static-html form-item\">\n<p><strong>Instructions:</strong></p>\n<p class=\"p1\">The service you offer to children and youth is important to the community and will have a lasting impact on the children, youth in your facility. It is also important to their families. State childcare laws and regulations are designed to reduce the predictable risk of harm to children and youth. By completing and submitting this application you are: 1) requesting a license to operate a Psychiatric Residential Treatment Facility (PRTF) and 2) affirming that you have read and agree to comply with all laws and regulations for Psychiatric Residential Treatment Facility in Kansas.</p>\n</div>\n</div>\n<div class=\"form-section-buttons\">Complete the following Application and include the supporting documentation as listed when submitting your application.</div>\n<div class=\"form-section-buttons\">&nbsp;</div>\n<div class=\"form-section-buttons\"><strong>Press Next to Continue to begin the completion of the application.&nbsp; You can save the application to complete at a later date by clicking the \"Save for Later\" link on the bottom left of the form.</strong></div>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/PsychiatricResidentialTreatmentFacility/English/InstructionsText"
+}

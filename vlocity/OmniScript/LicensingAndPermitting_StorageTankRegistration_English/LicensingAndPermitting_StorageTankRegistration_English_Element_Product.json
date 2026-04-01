@@ -1,0 +1,186 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "Product",
+    "OmniProcessId": {
+        "Name": "Licensing and Permitting Tank Registration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/StorageTankRegistration/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Chamber",
+        "OmniProcessId": {
+            "Name": "Licensing and Permitting Tank Registration",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/StorageTankRegistration/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/StorageTankRegistration/English/Chamber",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Chamber",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 6,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": false,
+        "imageCountInRow": 3,
+        "label": "Product",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "Alcohol",
+                "value": "Alcohol"
+            },
+            {
+                "autoAdv": null,
+                "name": "Antifreeze",
+                "value": "Antifreeze"
+            },
+            {
+                "autoAdv": null,
+                "name": "Asphalt",
+                "value": "Asphalt"
+            },
+            {
+                "autoAdv": null,
+                "name": "Biodiesel B1-B74",
+                "value": "Biodiesel B1-B74"
+            },
+            {
+                "autoAdv": null,
+                "name": "Biodiesel B75-B99",
+                "value": "Biodiesel B75-B99"
+            },
+            {
+                "autoAdv": null,
+                "name": "Biodiesel B100",
+                "value": "Biodiesel B100"
+            },
+            {
+                "autoAdv": null,
+                "name": "Crude Oil",
+                "value": "Crude Oil"
+            },
+            {
+                "autoAdv": null,
+                "name": "Diesel Fuel",
+                "value": "Diesel Fuel"
+            },
+            {
+                "autoAdv": null,
+                "name": "#2 Fuel",
+                "value": "#2 Fuel"
+            },
+            {
+                "autoAdv": null,
+                "name": "Gasoline, Aviation",
+                "value": "Gasoline, Aviation"
+            },
+            {
+                "autoAdv": null,
+                "name": "Gasoline, E-85",
+                "value": "Gasoline, E-85"
+            },
+            {
+                "autoAdv": null,
+                "name": "Gasoline, Leaded",
+                "value": "Gasoline, Leaded"
+            },
+            {
+                "autoAdv": null,
+                "name": "Gasoline,Plus",
+                "value": "Gasoline,Plus"
+            },
+            {
+                "autoAdv": null,
+                "name": "Gasoline, Premium",
+                "value": "Gasoline, Premium"
+            },
+            {
+                "autoAdv": null,
+                "name": "Gasoline, Regular",
+                "value": "Gasoline, Regular"
+            },
+            {
+                "autoAdv": null,
+                "name": "Glycerol",
+                "value": "Glycerol"
+            },
+            {
+                "autoAdv": null,
+                "name": "Hydraulic Oil",
+                "value": "Hydraulic Oil"
+            },
+            {
+                "autoAdv": null,
+                "name": "Jet Fuel",
+                "value": "Jet Fuel"
+            },
+            {
+                "autoAdv": null,
+                "name": "Kerosene",
+                "value": "Kerosene"
+            },
+            {
+                "autoAdv": null,
+                "name": "Lube Oil",
+                "value": "Lube Oil"
+            },
+            {
+                "autoAdv": null,
+                "name": "Methanol",
+                "value": "Methanol"
+            },
+            {
+                "autoAdv": null,
+                "name": "Vegetable Oil",
+                "value": "Vegetable Oil"
+            },
+            {
+                "autoAdv": null,
+                "name": "Waste Oil",
+                "value": "Waste Oil"
+            },
+            {
+                "autoAdv": null,
+                "name": "Other",
+                "value": "Other"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/StorageTankRegistration/English/Product"
+}

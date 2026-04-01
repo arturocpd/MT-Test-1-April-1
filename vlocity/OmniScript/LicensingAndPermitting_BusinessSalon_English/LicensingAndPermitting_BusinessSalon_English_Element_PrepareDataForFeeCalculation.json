@@ -1,0 +1,46 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "PrepareDataForFeeCalculation",
+    "OmniProcessId": {
+        "Name": "Business License Application Salon",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/BusinessSalon/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "inputData": {
+                "ApplicationCategory": "%ApplicationCategory%",
+                "AuthorizationCategory": "%AuthorizationCategory%",
+                "AuthorizationType": "%AuthorizationType%",
+                "BusinessLocation": "%SalonInformation:BusinessLocation%",
+                "EmployeeSize": "%SalonInformation:EmployeeSize%",
+                "NumberOfChairs": "%SalonInformation:NumberOfChairs%",
+                "SalonInAResidence": "%SalonInformation:SalonInAResidence%"
+            }
+        },
+        "label": "PrepareDataForFeeCalculation",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/BusinessSalon/English/PrepareDataForFeeCalculation"
+}

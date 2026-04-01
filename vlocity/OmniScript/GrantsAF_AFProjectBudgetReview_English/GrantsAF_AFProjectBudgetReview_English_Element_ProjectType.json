@@ -1,0 +1,88 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "ProjectType",
+    "OmniProcessId": {
+        "Name": "AFProjectBudgetReview",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/GrantsAF/AFProjectBudgetReview/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "CapitalProject",
+        "OmniProcessId": {
+            "Name": "AFProjectBudgetReview",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/GrantsAF/AFProjectBudgetReview/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/GrantsAF/AFProjectBudgetReview/English/CapitalProject",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "CapitalProject",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 4,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Project Type",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "Affordable Housing Development",
+                "value": "Affordable Housing Development"
+            },
+            {
+                "autoAdv": null,
+                "name": "Housing Related Infrastructure",
+                "value": "Housing Related Infrastructure"
+            },
+            {
+                "autoAdv": null,
+                "name": "Sustainable Transportation Infrastructure",
+                "value": "Sustainable Transportation Infrastructure"
+            },
+            {
+                "autoAdv": null,
+                "name": "Transportation-Related Amenities",
+                "value": "Transportation-Related Amenities"
+            },
+            {
+                "autoAdv": null,
+                "name": "Program Costs",
+                "value": "Program Costs"
+            }
+        ],
+        "readOnly": true,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/GrantsAF/AFProjectBudgetReview/English/ProjectType"
+}

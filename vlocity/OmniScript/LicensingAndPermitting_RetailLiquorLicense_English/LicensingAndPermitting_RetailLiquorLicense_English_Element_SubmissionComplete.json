@@ -1,0 +1,42 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SubmissionComplete",
+    "OmniProcessId": {
+        "Name": "Retail Liquor License Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/RetailLiquorLicense/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ApplicationSubmitted",
+        "OmniProcessId": {
+            "Name": "Retail Liquor License Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/RetailLiquorLicense/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/RetailLiquorLicense/English/ApplicationSubmitted",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ApplicationSubmitted",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "Complete",
+        "sanitize": false,
+        "text": "<p></p>\n<p style=\"text-align: center;\">Your Liquor License Request has been submitted to the Adjudication Department for Review.</p>\n<p style=\"text-align: center;\">Your Application Number is <span style=\"color: #000000;\"><strong>%CreatedApplicationId%</strong></span></p>\n<p style=\"text-align: center;\">Click <span style=\"color: #ff0000;\"><strong>Continue</strong></span> to Review the Application and this is where you can upload any additional Documentation required if you were unable to upload them in the previous step.&nbsp;</p>\n<p style=\"text-align: center;\">As a reminder, you will be required to provide the following on the next screen and upload them to your Application before it can be processed:</p>\n<p style=\"text-align: center;\"><span style=\"color: #ff0000;\"><strong>Background Check</strong></span></p>\n<p style=\"text-align: center;\"><span style=\"color: #ff0000;\"><strong>Fingerprint images</strong></span></p>\n<p style=\"text-align: center;\"><span style=\"color: #ff0000;\"><strong>Deed to Establishment</strong></span></p>\n<p style=\"text-align: center;\"><span style=\"color: #ff0000;\"><strong>Financial Documentation</strong></span></p>\n<p style=\"text-align: center;\"></p>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/RetailLiquorLicense/English/SubmissionComplete"
+}

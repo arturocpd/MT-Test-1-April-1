@@ -1,0 +1,40 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetFacilityAddressFields",
+    "OmniProcessId": {
+        "Name": "Licensing and Permitting Tank Registration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/StorageTankRegistration/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "FacilityCity": "=IF(%FacilityAddress%==null,\"Trenton\",%FacilityAddress:City%)",
+            "FacilityFullAddress": "=IF(%FacilityAddress%==null,\"711 Bar Harbor Road, Trenton, ME, 04605, United States\",%FacilityAddress:Address%)",
+            "FacilityPostalCode": "=IF(%FacilityAddress%==null,\"04605\",%FacilityAddress:PostalCode%)",
+            "FacilityState": "=IF(%FacilityAddress%==null,\"ME\",%FacilityAddress:State%)",
+            "FacilityStreet": "=IF(%FacilityAddress%==null,\"711 Bar Harbor Road\",%FacilityAddress:Street%)"
+        },
+        "label": "SetFacilityAddressFields",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/StorageTankRegistration/English/SetFacilityAddressFields"
+}

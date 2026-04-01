@@ -1,0 +1,60 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "IncomeSetValues",
+    "OmniProcessId": {
+        "Name": "Benefit Applicant Assessment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/BenefitApplicantAssessment/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Income",
+        "OmniProcessId": {
+            "Name": "Benefit Applicant Assessment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/BenefitApplicantAssessment/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/BenefitApplicantAssessment/English/Income",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Income",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 1,
+        "elementValueMap": {
+            "PSS_BM_v5_HouseholdIncomeDetails": {
+                "NameLookup-Block": {
+                    "NameLookup": "Paul Marshall"
+                },
+                "PSS_BM_v5_Employer": "Chocolate Factory",
+                "PSS_BM_v5_IncomeCurrentMonth": 1000,
+                "PSS_BM_v5_IncomeFrequency": "Monthly",
+                "PSS_BM_v5_IncomeHouseholdMemberName": "Paul Marshall",
+                "PSS_BM_v5_IncomeLastMonth": 1000,
+                "PSS_BM_v5_IncomeNextMonth": 1000
+            }
+        },
+        "label": ">>>",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/BenefitApplicantAssessment/English/IncomeSetValues"
+}

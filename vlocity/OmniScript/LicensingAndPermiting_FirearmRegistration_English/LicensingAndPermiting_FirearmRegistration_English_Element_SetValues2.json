@@ -1,0 +1,68 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetValues2",
+    "OmniProcessId": {
+        "Name": "Licensing and Permitting Firearm Registration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermiting/FirearmRegistration/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "StatementOfEligibility",
+        "OmniProcessId": {
+            "Name": "Licensing and Permitting Firearm Registration",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermiting/FirearmRegistration/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermiting/FirearmRegistration/English/StatementOfEligibility",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "StatementOfEligibility",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 1,
+        "elementValueMap": {
+            "AlcoholicOrAddict": "No",
+            "AquitedInsane": "No",
+            "BonaFideAndConcealedAnotherState": "No",
+            "BonaFideBusiness": "No",
+            "BonaFideResidence": "Yes",
+            "CivilProtectionOrder": "No",
+            "CommittedMentalHospital": "No",
+            "ConvictedLast5YearsDrugs": "No",
+            "ConvictedViolentCrime": "No",
+            "DishonorablyDischarged": "No",
+            "LegallyBlind": "No",
+            "NegligentFirearm": "No",
+            "PhysicalDefect": "No",
+            "ProvidedAccurateAndTrue": "Yes",
+            "RegisterPistolConcurrently": "Yes",
+            "RenouncedCitizenship": "No",
+            "SufferMentalIllness": "No",
+            "TwoOrMoreDUIs": "No",
+            "UnderIndictment": "No"
+        },
+        "label": ">>",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermiting/FirearmRegistration/English/SetValues2"
+}

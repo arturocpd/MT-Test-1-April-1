@@ -1,0 +1,42 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "TextBlock3",
+    "OmniProcessId": {
+        "Name": "Hydraulic Project Approval Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ApplicationTypeStep",
+        "OmniProcessId": {
+            "Name": "Hydraulic Project Approval Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English/ApplicationTypeStep",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ApplicationTypeStep",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock3",
+        "sanitize": false,
+        "show": null,
+        "text": "<ul class=\"biggerBullet\">\n<li><strong>Standard:</strong>&nbsp;You should apply for a standard HPA if you do not qualify for an expedited or emergency HPA. The majority of hydraulic projects qualify only for a standard HPA.</li>\n<li><strong>Expedited:</strong>&nbsp;You may apply for an expedited HPA if there is an official declaration by the county legislative authority or the Department of Fish and Wildlife of a threat by weather, water flow, or other natural conditions that is likely to occur within sixty days of a request for a permit application. Expedited work may only be for work to remove any obstructions, repair existing structures, restore banks, protect fish resources, or protect property. The Department of Fish and Wildlife may also issue expedited HPAs where normal permit processing would result in significant hardship for the applicant or unacceptable damage to the environment.</li>\n<li><strong>Emergency:</strong> You may apply for an emergency HPA if there is an official declaration by the Governor, the county legislative authority, or the Department of Fish and Wildlife of an immediate threat to life, the public, property, or of environmental degradation. Emergency work may only be for a stream crossing, or work to remove any obstructions, repair existing structures, restore streambanks, protect fish life, or protect property threatened by the stream or a change in the stream flow.&nbsp;&nbsp;</li>\n</ul>\n<p style=\"text-align: center;\"><span style=\"color: #e03e2d;\"><strong>DFW does not accept online applications for emergency HPAs. </strong></span></p>\n<p><span style=\"color: #e03e2d;\"><strong>During normal business hours please call the Habitat Biologist for your project location to request a verbal HPA. You can identify the biologist at the following website:<a href=\"http://wdfw.wa.gov/conservation/habitat/ahb/\" class=\"NoDirtyChk\" target=\"_blank\" rel=\"noopener\" style=\"color: #e03e2d;\">&nbsp;http://wdfw.wa.gov/conservation/habitat/ahb/&nbsp;</a>. After normal business hours, please call the Emergency HPA Hotline at (360) 902-2537. If you wish to continue with the online application process, please choose either the Standard or Expedited application type.</strong></span></p>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English/TextBlock3"
+}

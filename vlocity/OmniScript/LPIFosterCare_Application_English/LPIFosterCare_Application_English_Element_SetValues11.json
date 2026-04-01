@@ -1,0 +1,80 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetValues11",
+    "OmniProcessId": {
+        "Name": "LPI Foster Care Application Form",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LPIFosterCare/Application/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Block3",
+        "OmniProcessId": {
+            "Name": "LPI Foster Care Application Form",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LPIFosterCare/Application/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LPIFosterCare/Application/English/Block3",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Block3",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 1,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "FosterReferenceCheck": {
+                "Block3": [
+                    {
+                        "Address": {
+                            "RefCity": "Geneva",
+                            "RefPostalCode": "46740",
+                            "RefState": "IN",
+                            "RefStreet": "210 Decatur Street"
+                        },
+                        "RefEmail": "eroberts@salesforce.com",
+                        "RefFirstName": "Eric",
+                        "RefLastName": "Roberts",
+                        "RefPhone": "6588764653",
+                        "Relationship": "Friend"
+                    },
+                    {
+                        "Address": {
+                            "RefCity": "East Chicago",
+                            "RefPostalCode": "46312",
+                            "RefState": "IN",
+                            "RefStreet": "5578 Indianapolis Boulevard"
+                        },
+                        "RefEmail": "ewalsh@example.com",
+                        "RefFirstName": "Erin",
+                        "RefLastName": "Walsh",
+                        "RefPhone": "9255556788",
+                        "Relationship": "Co-Worker"
+                    }
+                ]
+            }
+        },
+        "label": ">>>",
+        "message": {
+        },
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "Step",
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LPIFosterCare/Application/English/SetValues11"
+}

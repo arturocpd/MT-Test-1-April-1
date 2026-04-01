@@ -1,0 +1,12 @@
+[
+    "DataRaptor/VisitDRCreateFacilityVisitRequestFromOmniscript",
+    "DataRaptor/VisitDRCreateLocationAddressFromContextIdandVisit",
+    "DataRaptor/VisitDRGetBLActionPlanTemplates",
+    "DataRaptor/VisitDRGetCurrentBLAForVisit",
+    "DataRaptor/VisitDRGetCurrentCaseForVisit",
+    "DataRaptor/VisitDRGetCurrentFacilityForVisit",
+    "DataRaptor/VisitDRGetCurrentIAForVisit",
+    "DataRaptor/VisitDRGetInternalUsersforInspection",
+    "DataRaptor/VisitDRGetOtherActionPlanTemplates",
+    "DataRaptor/VisitDRInspectorTransform"
+]

@@ -1,0 +1,116 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SelectProofOfResidency",
+    "OmniProcessId": {
+        "Name": "Patient Medical Cannabis",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/CannabisPatientApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ProofOfResidency",
+        "OmniProcessId": {
+            "Name": "Patient Medical Cannabis",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/CannabisPatientApplication/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/CannabisPatientApplication/English/ProofOfResidency",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ProofOfResidency",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": false,
+        "imageCountInRow": 3,
+        "label": "To prove residency, applicants must submit at least TWO (2) of the following items in the name of the applicant. Check two forms of proof of residency from the list below and attach the according documents to the application.",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "developerName": null,
+                "name": "Proof of payment of personal income tax, in the name of the applicant, for the tax period closest in time to the application date",
+                "value": "Proof of payment of personal income tax, in the name of the applicant, for the tax period closest in time to the application date"
+            },
+            {
+                "developerName": null,
+                "name": "A property deed for a State residence showing the applicant as an owner or co- owner",
+                "value": "A property deed for a State residence showing the applicant as an owner or co- owner"
+            },
+            {
+                "developerName": null,
+                "name": "A valid unexpired lease or rental agreement in the name of the applicant on a State residential property",
+                "value": "A valid unexpired lease or rental agreement in the name of the applicant on a State residential property"
+            },
+            {
+                "developerName": null,
+                "name": "A pay stub issued less than forty-five (45) days prior to the application date which shows evidence of the applicant’s withholding of State income tax",
+                "value": "A pay stub issued less than forty-five (45) days prior to the application date which shows evidence of the applicant’s withholding of State income tax"
+            },
+            {
+                "developerName": null,
+                "name": "A voter registration card with an address in the State",
+                "value": "A voter registration card with an address in the State"
+            },
+            {
+                "developerName": null,
+                "name": "Current official documentation of financial assistance received from the State Government including, but not limited to, Temporary Assistance for Needy Families (TANF), Medicaid, the State Child Health Insurance Program (SCHIP), Supplemental Security Income (SSI), housing assistance, or other governmental programs",
+                "value": "Current official documentation of financial assistance received from the State Government including, but not limited to, Temporary Assistance for Needy Families (TANF), Medicaid, the State Child Health Insurance Program (SCHIP), Supplemental Security Income (SSI), housing assistance, or other governmental programs"
+            },
+            {
+                "developerName": null,
+                "name": "A current motor vehicle registration in the name of the applicant evidencing State residency",
+                "value": "A current motor vehicle registration in the name of the applicant evidencing State residency"
+            },
+            {
+                "developerName": null,
+                "name": "A valid unexpired State motor vehicle operator’s permit or other official non-driver identification in the name of the applicant",
+                "value": "A valid unexpired State motor vehicle operator’s permit or other official non-driver identification in the name of the applicant"
+            },
+            {
+                "developerName": null,
+                "name": "A utility bill (excluding telephone bill) from a period within the two (2) months immediately preceding the application date in the name of the applicant on a State residential address",
+                "value": "A utility bill (excluding telephone bill) from a period within the two (2) months immediately preceding the application date in the name of the applicant on a State residential address"
+            },
+            {
+                "developerName": null,
+                "name": "Any other reasonable form of verification deemed by the Agency or their designated agent to demonstrate proof of current residency",
+                "value": "Any other reasonable form of verification deemed by the Agency or their designated agent to demonstrate proof of current residency"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null
+    },
+    "Type": "Multi-select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/CannabisPatientApplication/English/SelectProofOfResidency"
+}

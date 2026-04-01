@@ -1,0 +1,91 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DesignerCustomizationType": "Public Sector Assessment",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "Days_of_work_or_school_missed",
+    "OmniProcessId": {
+        "Name": "Youth Justice Checkin Assessment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/SPCM/YouthJusticeCheckinAssessment/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Days_of_work_or_school_missed_block",
+        "OmniProcessId": {
+            "Name": "Youth Justice Checkin Assessment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/SPCM/YouthJusticeCheckinAssessment/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/SPCM/YouthJusticeCheckinAssessment/English/Days_of_work_or_school_missed_block",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Days_of_work_or_school_missed_block",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": false,
+        "imageCountInRow": 3,
+        "label": "Approximately how many days of school or work have you missed within the last 90 days?",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "developerName": "1-10 days",
+                "name": "1-10 days",
+                "setAll": false,
+                "value": "1-10 days"
+            },
+            {
+                "developerName": "11-20 days",
+                "name": "11-20 days",
+                "setAll": false,
+                "value": "11-20 days"
+            },
+            {
+                "developerName": "21-30 days",
+                "name": "21-30 days",
+                "setAll": false,
+                "value": "21-30 days"
+            },
+            {
+                "developerName": "More than 30 days",
+                "name": "More than 30 days",
+                "setAll": false,
+                "value": "More than 30 days"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null
+    },
+    "Type": "Radio",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/SPCM/YouthJusticeCheckinAssessment/English/Days_of_work_or_school_missed"
+}

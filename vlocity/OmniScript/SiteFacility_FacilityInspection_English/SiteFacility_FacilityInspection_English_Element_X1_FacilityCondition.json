@@ -1,0 +1,91 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DesignerCustomizationType": "Public Sector Assessment",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "X1_FacilityCondition",
+    "OmniProcessId": {
+        "Name": "Facility Inspection",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/SiteFacility/FacilityInspection/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "X1_FacilityCondition_block",
+        "OmniProcessId": {
+            "Name": "Facility Inspection",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/SiteFacility/FacilityInspection/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/SiteFacility/FacilityInspection/English/X1_FacilityCondition_block",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "X1_FacilityCondition_block",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "enableCaption": true,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "horizontalMode": false,
+        "imageCountInRow": 3,
+        "label": "Rate the Overall Condition of the Facility",
+        "optionHeight": 100,
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "optionWidth": 100,
+        "options": [
+            {
+                "developerName": "Excellent",
+                "name": "Excellent",
+                "setAll": false,
+                "value": "Excellent"
+            },
+            {
+                "developerName": "Good",
+                "name": "Good",
+                "setAll": false,
+                "value": "Good"
+            },
+            {
+                "developerName": "Fair",
+                "name": "Fair",
+                "setAll": false,
+                "value": "Fair"
+            },
+            {
+                "developerName": "Poor",
+                "name": "Poor",
+                "setAll": false,
+                "value": "Poor"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null
+    },
+    "Type": "Radio",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/SiteFacility/FacilityInspection/English/X1_FacilityCondition"
+}

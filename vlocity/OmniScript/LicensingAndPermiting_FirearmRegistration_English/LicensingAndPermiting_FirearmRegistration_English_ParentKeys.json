@@ -1,0 +1,6 @@
+[
+    "DataRaptor/DRGetContactForFirearmUser",
+    "DataRaptor/DRGetIAApplicationName",
+    "DataRaptor/LPIPopulateDCMPD219",
+    "DataRaptor/LPISaveFirearmApplication"
+]

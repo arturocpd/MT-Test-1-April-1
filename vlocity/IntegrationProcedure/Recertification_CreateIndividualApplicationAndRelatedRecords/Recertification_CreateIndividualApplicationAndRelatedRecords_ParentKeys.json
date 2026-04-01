@@ -1,0 +1,7 @@
+[
+    "DataRaptor/PSSExpCloudGetPersonAccountIDOfApplicant1",
+    "DataRaptor/PSSRecertificationCreateIAAndCase",
+    "DataRaptor/PSSReportCOCTransformAssessmentQuestionResponseName1",
+    "DataRaptor/PSSReportCOCUpdatePreliminaryApplicationReference1",
+    "IntegrationProcedure/ChangeOfCircumstances_ModifyReturnedIndividualApplication"
+]

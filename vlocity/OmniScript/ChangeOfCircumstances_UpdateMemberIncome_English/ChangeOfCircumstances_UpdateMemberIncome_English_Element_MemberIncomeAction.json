@@ -1,0 +1,47 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": true,
+    "MayEdit": true,
+    "Name": "MemberIncomeAction",
+    "OmniProcessId": {
+        "Name": "UpdateMemberIncome",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/UpdateMemberIncome/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "PSS_BM_v5_ExistingHouseholdIncomeDetails",
+        "OmniProcessId": {
+            "Name": "UpdateMemberIncome",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/ChangeOfCircumstances/UpdateMemberIncome/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/UpdateMemberIncome/English/PSS_BM_v5_ExistingHouseholdIncomeDetails",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "PSS_BM_v5_ExistingHouseholdIncomeDetails",
+    "ParentElementType": "Edit Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataType": "Text",
+        "dateFormat": "MM-dd-yyyy",
+        "disOnTplt": false,
+        "expression": "IF(CONTAINS(%PSS_BM_v5_ExistingHouseholdIncomeDetails|n:PSS_BM_v5_PartyIncomeId%, '2m3')==false, \"Add Income\", IF(%PSS_BM_v5_ExistingHouseholdIncomeDetails|n:UpdateIncomeChangeSelected% == true, \"Update Income\", IF(%PSS_BM_v5_ExistingHouseholdIncomeDetails|n:RemoveIncomeChangeSelected% == true, \"Remove Income\", \"No Change\")))",
+        "hide": false,
+        "hideGroupSep": false,
+        "inputWidth": 12,
+        "label": "MemberIncomeAction",
+        "mask": null,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Formula",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ChangeOfCircumstances/UpdateMemberIncome/English/MemberIncomeAction"
+}

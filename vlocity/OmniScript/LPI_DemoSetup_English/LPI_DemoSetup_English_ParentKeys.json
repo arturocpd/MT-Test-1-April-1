@@ -1,0 +1,5 @@
+[
+    "DataRaptor/LPIGetDemoScenarios",
+    "DataRaptor/LPISaveDemoSelection",
+    "IntegrationProcedure/PSUtility_CallDemoLogWebService"
+]

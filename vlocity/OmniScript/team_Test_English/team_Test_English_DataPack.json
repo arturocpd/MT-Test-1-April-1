@@ -1,0 +1,28 @@
+{
+    "CurrencyIsoCode": "USD",
+    "Description": "Feature 2",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": false,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "MayEdit": true,
+    "Name": "June 14",
+    "OmniProcessElement": [
+        "team_Test_English_Element_IntegrationProcedureAction1.json",
+        "team_Test_English_Element_Step1.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "team_Test_English_PropertySetConfig.json",
+    "SubType": "Test",
+    "Type": "team",
+    "UniqueName": "team_Test_English_21",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/team/Test/English"
+}

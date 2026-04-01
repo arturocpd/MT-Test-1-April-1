@@ -1,0 +1,86 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DesignerCustomizationType": "Discovery Framework",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "Personal_History_Group",
+    "OmniProcessId": {
+        "Name": "Opioid Risk Assessment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Risk/Assessment/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Step2",
+        "OmniProcessId": {
+            "Name": "Opioid Risk Assessment",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Risk/Assessment/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Risk/Assessment/English/Step2",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Step2",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "label": "Personal history of substance abuse",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "name": "Yes",
+                "setAll": false,
+                "value": "Yes"
+            },
+            {
+                "name": "No",
+                "setAll": false,
+                "value": "No"
+            }
+        ],
+        "radioLabels": [
+            {
+                "name": "Personal_History_Illegal_drugs",
+                "setAll": false,
+                "value": "Illegal Drugs"
+            },
+            {
+                "name": "Personal_History_Rx_drugs",
+                "setAll": false,
+                "value": "Rx drugs"
+            },
+            {
+                "name": "Personal_History_Alcohol",
+                "setAll": false,
+                "value": "Alcohol"
+            }
+        ],
+        "radioLabelsWidth": 6,
+        "readOnly": false,
+        "required": false,
+        "show": null
+    },
+    "Type": "Radio Group",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Risk/Assessment/English/Personal_History_Group"
+}

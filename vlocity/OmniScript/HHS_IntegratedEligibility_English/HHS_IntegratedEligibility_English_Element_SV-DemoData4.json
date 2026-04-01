@@ -1,0 +1,71 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SV-DemoData4",
+    "OmniProcessId": {
+        "Name": "Children with Disabilities Family Support",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/HHS/IntegratedEligibility/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Household Expenses",
+        "OmniProcessId": {
+            "Name": "Children with Disabilities Family Support",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/HHS/IntegratedEligibility/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/HHS/IntegratedEligibility/English/Household Expenses",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Household Expenses",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 1,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "ExpensesBlock": [
+                {
+                    "ExpenseDetails": "Taxi to Rehabilitation Centre",
+                    "ExpenseType": "Transportation",
+                    "MonthlyAmount": 60
+                },
+                {
+                    "ExpenseDetails": "Specialized at-home day-care",
+                    "ExpenseType": "Child Care & Babysitting",
+                    "MonthlyAmount": 2000
+                },
+                {
+                    "ExpenseDetails": "Respiratory Medical Device and Oxygen Tank replacement",
+                    "ExpenseType": "Drug & Medical",
+                    "MonthlyAmount": 350
+                },
+                {
+                    "ExpenseDetails": "Physiotherapy",
+                    "ExpenseType": "Personal Care",
+                    "MonthlyAmount": 275
+                }
+            ]
+        },
+        "label": ">>>",
+        "message": {
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "validationRequired": "None",
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/HHS/IntegratedEligibility/English/SV-DemoData4"
+}

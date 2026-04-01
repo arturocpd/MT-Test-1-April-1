@@ -1,0 +1,63 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "CustomLWC5",
+    "OmniProcessId": {
+        "Name": "Create Recruitment Posting",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Recruitment/CreatePosting/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "PostingDetailsSection2",
+        "OmniProcessId": {
+            "Name": "Create Recruitment Posting",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Recruitment/CreatePosting/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Recruitment/CreatePosting/English/PostingDetailsSection2",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "PostingDetailsSection2",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "bStandalone": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "customAttributes": [
+            {
+                "name": "meeting-notes",
+                "source": "%PostingDetailsSection2:Section2ContentToSave%"
+            }
+        ],
+        "hide": false,
+        "label": "Content",
+        "lwcName": "industries_cib__richTextEditor",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "true",
+                        "field": "PostingDetailsSection2:ShowSearchTemplate1"
+                    },
+                    {
+                        "condition": "=",
+                        "data": "Use Fields from an Existing Section",
+                        "field": "PostingDetailsSection2:SelectOption1"
+                    }
+                ]
+            }
+        }
+    },
+    "Type": "Custom Lightning Web Component",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Recruitment/CreatePosting/English/CustomLWC5"
+}

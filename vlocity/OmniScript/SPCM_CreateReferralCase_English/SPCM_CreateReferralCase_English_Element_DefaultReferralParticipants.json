@@ -1,0 +1,63 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": true,
+    "MayEdit": true,
+    "Name": "DefaultReferralParticipants",
+    "OmniProcessId": {
+        "Name": "Create a Referral Case",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/SPCM/CreateReferralCase/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ReferralParticipants",
+        "OmniProcessId": {
+            "Name": "Create a Referral Case",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/SPCM/CreateReferralCase/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/SPCM/CreateReferralCase/English/ReferralParticipants",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ReferralParticipants",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "bStandalone": true,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "customAttributes": [
+            {
+                "name": "referral-id",
+                "source": "%GetReferralDetails:Referrer%"
+            },
+            {
+                "name": "client-id",
+                "source": "%GetReferralDetails:Client:Id%"
+            },
+            {
+                "name": "referral-name",
+                "source": "%GetReferralDetails:ReferrerName%"
+            },
+            {
+                "name": "client-name",
+                "source": "%GetReferralDetails:ClientName%"
+            },
+            {
+                "name": "already-sent-data",
+                "source": "%DefaultRecordsSaved%"
+            }
+        ],
+        "hide": false,
+        "label": "Default Referral Participants",
+        "lwcName": "spcm_industries_publicsector__defaultReferralParticipants",
+        "show": null
+    },
+    "Type": "Custom Lightning Web Component",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/SPCM/CreateReferralCase/English/DefaultReferralParticipants"
+}

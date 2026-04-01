@@ -1,0 +1,31 @@
+{
+    "CurrencyIsoCode": "USD",
+    "Description": "Shows the position title and the requisition ID of the job opening for which the user is applying.",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": false,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": true,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "MayEdit": true,
+    "Name": "Job Opening Details",
+    "OmniProcessElement": [
+        "Recruitment_JobOpeningDetails_English_Element_GetPositionTitleAndRequisitionID.json",
+        "Recruitment_JobOpeningDetails_English_Element_JobOpeningDetails.json",
+        "Recruitment_JobOpeningDetails_English_Element_PositionTitle.json",
+        "Recruitment_JobOpeningDetails_English_Element_RequisitionID.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "OverrideKey": "ap_exp_flows__Recruitment_JobOpeningDetails_English_1",
+    "PropertySetConfig": "Recruitment_JobOpeningDetails_English_PropertySetConfig.json",
+    "SubType": "JobOpeningDetails",
+    "Type": "Recruitment",
+    "UniqueName": "Recruitment_JobOpeningDetails_English_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Recruitment/JobOpeningDetails/English"
+}

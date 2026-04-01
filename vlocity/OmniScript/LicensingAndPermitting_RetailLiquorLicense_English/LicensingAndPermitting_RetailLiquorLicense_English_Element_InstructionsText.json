@@ -1,0 +1,41 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "InstructionsText",
+    "OmniProcessId": {
+        "Name": "Retail Liquor License Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/RetailLiquorLicense/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Instructions",
+        "OmniProcessId": {
+            "Name": "Retail Liquor License Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/RetailLiquorLicense/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/RetailLiquorLicense/English/Instructions",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Instructions",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "sanitize": false,
+        "text": "<div id=\"form-element-wrapper_25\" class=\"formFieldWrapper  static-html-wrapper style-selector_25\" data-field-code=\"\" aria-hidden=\"false\">\n<div class=\"form-static-html form-item\">\n<p><strong>Liquor Licenses:</strong></p>\n<p>Liquor licenses in the state are administered by the <a href=\"https://sbg.colorado.gov/\">State Department of Revenue</a>. Licenses may be held in the name of an individual, corporation, limited liability companies, partnerships or sole proprietors.</p>\n<p>The Local Licensing Authority holds public hearings or review of renewal applications on an as-needed basis. Liquor Licensing agendas are posted on the main floor of the County Courthouse where the business or individual resides at least 24 hours in advance. All hearings will be posted on the licensed premises for 10 days prior to the hearing. In addition, hearings on new applications will be published in the designated county newspaper.</p>\n<p>The state does not have jurisdiction over liquor licenses within incorporated towns or cities. If you have a question regarding licensing within one of the cities or towns in a certain County, please contact that municipality directly.</p>\n</div>\n</div>\n<div class=\"form-section-buttons\">&nbsp;</div>\n<div class=\"form-section-buttons\">Complete the following Application and include the supporting documentation as listed when submitting your application.</div>\n<div class=\"form-section-buttons\">&nbsp;</div>\n<div class=\"form-section-buttons\"><strong>Press Next to Continue to review the checklist needed to complete the form.</strong></div>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/RetailLiquorLicense/English/InstructionsText"
+}

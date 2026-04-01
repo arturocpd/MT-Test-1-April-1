@@ -1,0 +1,10 @@
+[
+    "DataRaptor/GPSFormatPromptResults",
+    "DataRaptor/GPSGetApplicantAccountId",
+    "DataRaptor/GPSRecruitmentGetProfileDetails",
+    "DataRaptor/GPSRecruitmentSetProfileDetails",
+    "DataRaptor/GPSUpdateResumeRawText",
+    "DataRaptor/GPSUpsertResumeEmploymentEducation",
+    "DataRaptor/GetPostingIdandRRId",
+    "IntegrationProcedure/GPSTalentRecruitment_ScoreApplications"
+]

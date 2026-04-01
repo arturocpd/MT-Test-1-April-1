@@ -1,0 +1,7 @@
+[
+    "DataRaptor/PSSFetchBenefitAssignmentFromIndividualApplication1",
+    "DataRaptor/PSSFetchCurrentBenefitAssignmentAdjustments1",
+    "DataRaptor/PSSFetchIndividualApplicationStatus1",
+    "DataRaptor/PSSGetParentIA1",
+    "IntegrationProcedure/ChangeOfCircumstances_DetermineNewEntitledAmount"
+]

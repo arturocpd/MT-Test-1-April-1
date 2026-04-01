@@ -1,0 +1,37 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SSAH-Explanation",
+    "OmniProcessId": {
+        "Name": "Children with Disabilities Family Support",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/HHS/IntegratedEligibility/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Programs",
+        "OmniProcessId": {
+            "Name": "Children with Disabilities Family Support",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/HHS/IntegratedEligibility/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/HHS/IntegratedEligibility/English/Programs",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Programs",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "controlWidth": 12,
+        "dataJSON": false,
+        "text": "<div class=\"programDesc\"><img src=\"/resource/SSAH\" alt=\"SSAH-Logo\" width=\"148\" height=\"138\" /><br />\n<div class=\"programContent\">\n<p>Families who are caring for a child with a developmental and/or physical disability can apply to the special services at home program to get funding for primary caregiver relief and related supports or for activities of personal growth or development including camps and recreational activities, like swimming and music classes.</p>\n<p>Respite enhances the primary caregiver&rsquo;s capacity to provide care for the child with a disability living at home through the provision of indirect assistance. Indirect assistance can help provide relief to the primary caregiver so that they may take some time away from caregiving, or from one or more of their other responsibilities such as cooking, housekeeping and grocery shopping.</p>\n<p>The amount of funding you receive depends on</p>\n<ul>\n<li>the type and amount of service your child needs</li>\n<li>what other help is available in your community</li>\n<li>what kind of support you already receive</li>\n</ul>\n<p>&nbsp;</p>\n<h4>Eligibility</h4>\n<p>You can apply for this support if your child:</p>\n<ul>\n<li>has a developmental and/or physical disability</li>\n<li>lives in Ontario</li>\n<li>is under the age of 18</li>\n<li>needs more support than you can provide</li>\n<li>lives at home with you, or is not living at home with you and is not being helped by other residential services</li>\n</ul>\n</div>\n</div>"
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/HHS/IntegratedEligibility/English/SSAH-Explanation"
+}

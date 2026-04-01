@@ -1,0 +1,39 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetAddressValuesforPDF",
+    "OmniProcessId": {
+        "Name": "Boat Registration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermiting/BoatRegistration/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "PDFCity": "=IF(%OwnerAddress%==null,%City%,%OwnerAddress:City%)",
+            "PDFPostalCode": "=IF(%OwnerAddress%==null,%Zip%,%OwnerAddress:PostalCode%)",
+            "PDFState": "=IF(%OwnerAddress%==null,%State%,%OwnerAddress:Province%)",
+            "PDFStreet": "=IF(%OwnerAddress%==null,%StreetAddress%,%OwnerAddress:Street%)"
+        },
+        "label": "SetAddressValuesforPDF",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermiting/BoatRegistration/English/SetAddressValuesforPDF"
+}

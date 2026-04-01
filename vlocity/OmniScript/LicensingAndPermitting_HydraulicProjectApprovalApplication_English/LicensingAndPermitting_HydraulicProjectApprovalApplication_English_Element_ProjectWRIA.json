@@ -1,0 +1,124 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "ProjectWRIA",
+    "OmniProcessId": {
+        "Name": "Hydraulic Project Approval Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ProjectLocationStep",
+        "OmniProcessId": {
+            "Name": "Hydraulic Project Approval Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English/ProjectLocationStep",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ProjectLocationStep",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "helpTextPos": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "WRIA #",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "0 - Unknown",
+                "value": "0 - Unknown"
+            },
+            {
+                "autoAdv": null,
+                "name": "1 - Nooksack",
+                "value": "1 - Nooksack"
+            },
+            {
+                "autoAdv": null,
+                "name": "2 - San Juan",
+                "value": "2 - San Juan"
+            },
+            {
+                "autoAdv": null,
+                "name": "3 - Skagit Lower - Samish",
+                "value": "3 - Skagit Lower - Samish"
+            },
+            {
+                "autoAdv": null,
+                "name": "4 - Skagit Upper",
+                "value": "4 - Skagit Upper"
+            },
+            {
+                "autoAdv": null,
+                "name": "5 - Stillaguamish",
+                "value": "5 - Stillaguamish"
+            },
+            {
+                "autoAdv": null,
+                "name": "6 - Island",
+                "value": "6 - Island"
+            },
+            {
+                "autoAdv": null,
+                "name": "7 - Snohomish",
+                "value": "7 - Snohomish"
+            },
+            {
+                "autoAdv": null,
+                "name": "8 - Cedar - Sammamish",
+                "value": "8 - Cedar - Sammamish"
+            },
+            {
+                "autoAdv": null,
+                "name": "9 - Duwamish - Green",
+                "value": "9 - Duwamish - Green"
+            },
+            {
+                "autoAdv": null,
+                "name": "10 - Puyallup - White",
+                "value": "10 - Puyallup - White"
+            },
+            {
+                "autoAdv": null,
+                "name": "11 - Nisqually",
+                "value": "11 - Nisqually"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/HydraulicProjectApprovalApplication/English/ProjectWRIA"
+}

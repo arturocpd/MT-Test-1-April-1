@@ -1,0 +1,48 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": true,
+    "MayEdit": true,
+    "Name": "SetAddressValuesForSaveAndPDF",
+    "OmniProcessId": {
+        "Name": "Licensing And Permitting Deck Permit",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/Deck/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "SaveContractorAddress": "=IF(%ContractorAddress%==null,\"683 Petersburg Road,Powhatan,VA,23139,United States\",%ContractorAddress:Address%)",
+            "SaveJobAddress": "=IF(%JobAddress%==null,%PrepopulateAddress%,%JobAddress:Address%)",
+            "SaveJobCity": "=IF(%JobAddress%==null,%PrepopulateCity%,%JobAddress:City%)",
+            "SaveJobCountry": "=IF(%JobAddress%==null,%PrepopulateCountry%,%JobAddress:Country%)",
+            "SaveJobPostalCode": "=IF(%JobAddress%==null,%PrepopulatePostalCode%,%JobAddress:PostalCode%)",
+            "SaveJobState": "=IF(%JobAddress%==null,%PrepopulateState%,%JobAddress:Province%)",
+            "SaveJobStreet": "=IF(%JobAddress%==null,%PrepopulateStreet%,%JobAddress:Street%)",
+            "SavePropertyOwnerAddress": "=IF(%PropertyOwnerAddress%==null,%PrepopulateAddress%,%PropertyOwnerAddress:Address%)",
+            "SavePropertyOwnerCity": "=IF(%PropertyOwnerAddress%==null,%PrepopulateCity%,%PropertyOwnerAddress:City%)",
+            "SavePropertyOwnerCountry": "=IF(%PropertyOwnerAddress%==null,%PrepopulateCountry%,%PropertyOwnerAddress:Country%)",
+            "SavePropertyOwnerPostalCode": "=IF(%PropertyOwnerAddress%==null,%PrepopulatePostalCode%,%PropertyOwnerAddress:PostalCode%)",
+            "SavePropertyOwnerState": "=IF(%PropertyOwnerAddress%==null,%PrepopulateState%,%PropertyOwnerAddress:Province%)",
+            "SavePropertyOwnerStreet": "=IF(%PropertyOwnerAddress%==null,%PrepopulateStreet%,%PropertyOwnerAddress:Street%)"
+        },
+        "label": "SetAddressValuesForSaveAndPDF",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/Deck/English/SetAddressValuesForSaveAndPDF"
+}

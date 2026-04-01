@@ -1,0 +1,6 @@
+[
+    "DataRaptor/GetActionPlanID",
+    "DataRaptor/GetApplicationFormID",
+    "IntegrationProcedure/Recruitment_GetContentDocumentsForApplicantEducationalQualification",
+    "IntegrationProcedure/Recruitment_GetDataToPrefillEducationDetails"
+]

@@ -1,0 +1,31 @@
+{
+    "CurrencyIsoCode": "USD",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": false,
+    "IsLocked": false,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "MayEdit": true,
+    "Name": "Grants Reset Data",
+    "OmniProcessElement": [
+        "Grants_Reset_English_Element_Reset.json",
+        "Grants_Reset_English_Element_Validate.json",
+        "Grants_Reset_English_Element_DemoReset.json",
+        "Grants_Reset_English_Element_Confirmation.json",
+        "Grants_Reset_English_Element_TextBlock1.json",
+        "Grants_Reset_English_Element_NavigateAction1.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "Grants_Reset_English_PropertySetConfig.json",
+    "SubType": "Reset",
+    "Type": "Grants",
+    "UniqueName": "Grants_Reset_English_2",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Grants/Reset/English"
+}

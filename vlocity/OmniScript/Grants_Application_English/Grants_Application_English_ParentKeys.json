@@ -1,0 +1,6 @@
+[
+    "DataRaptor/CreateGMApplicationOnly",
+    "DataRaptor/DRGetAccountAndContactForUser",
+    "DataRaptor/DRGetDemoUserId",
+    "DataRaptor/DRGetIAApplicationName"
+]

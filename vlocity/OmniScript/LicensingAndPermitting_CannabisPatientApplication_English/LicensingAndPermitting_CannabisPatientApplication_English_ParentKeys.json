@@ -1,0 +1,7 @@
+[
+    "DataRaptor/CannabisPatientTransformForPDF",
+    "DataRaptor/DRGetContactForPatient",
+    "DataRaptor/DRGetIAApplicationName",
+    "DataRaptor/DRSaveCannabisPatient",
+    "DecisionMatrix/CannabisFederalPoverty"
+]

@@ -1,0 +1,113 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "ElementType",
+    "OmniProcessId": {
+        "Name": "Omniscript Quick Build",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Omniscript/QuickBuild/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ElementDetails",
+        "OmniProcessId": {
+            "Name": "Omniscript Quick Build",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Omniscript/QuickBuild/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Omniscript/QuickBuild/English/ElementDetails",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ElementDetails",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 2,
+        "controllingField": {
+            "element": "",
+            "source": "",
+            "type": ""
+        },
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Type",
+        "optionSource": {
+            "source": "",
+            "type": ""
+        },
+        "options": [
+            {
+                "autoAdv": null,
+                "name": "Text",
+                "value": "Text"
+            },
+            {
+                "autoAdv": null,
+                "name": "Number",
+                "value": "Number"
+            },
+            {
+                "autoAdv": null,
+                "name": "Date",
+                "value": "Date"
+            },
+            {
+                "autoAdv": null,
+                "name": "Checkbox",
+                "value": "Checkbox"
+            },
+            {
+                "autoAdv": null,
+                "name": "Currency",
+                "value": "Currency"
+            },
+            {
+                "name": "Radio",
+                "value": "Radio"
+            },
+            {
+                "name": "Select",
+                "value": "Select"
+            },
+            {
+                "name": "Text Block",
+                "value": "Text Block"
+            },
+            {
+                "name": "Telephone",
+                "value": "Telephone"
+            },
+            {
+                "name": "Email",
+                "value": "Email"
+            },
+            {
+                "autoAdv": null,
+                "name": "Multi-select",
+                "value": "Multi-select"
+            }
+        ],
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Select",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Omniscript/QuickBuild/English/ElementType"
+}

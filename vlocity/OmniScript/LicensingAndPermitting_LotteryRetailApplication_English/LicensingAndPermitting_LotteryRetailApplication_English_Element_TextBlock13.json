@@ -1,0 +1,43 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "TextBlock13",
+    "OmniProcessId": {
+        "Name": "Lottery Retail Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/LotteryRetailApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Signature",
+        "OmniProcessId": {
+            "Name": "Lottery Retail Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/LotteryRetailApplication/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/LotteryRetailApplication/English/Signature",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Signature",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock13",
+        "sanitize": false,
+        "show": null,
+        "text": "<p>I certify that I have not been convicted of a felony or a Class A misdemeanor within the previous 10 years, which has not been annulled by a court, or a class B misdemeanor within the past 5 years, which has not been annulled by a court, or I have not violated any of the statutes or rules governing charitable gambling in the past in this or any other state. By signing below I also affirm my consent for the Lottery Commission to conduct a check on my credit history.</p>\n<p>I further certify my understanding that a check will be performed of my credit history. I also understand that, if my credit history does not meet the threshold set by the Lottery, I may be required to provide a surety bond naming the commission as oblige, and conditioned upon my compliance with payment obligations relative to weekly settlement and remittances.</p>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/LotteryRetailApplication/English/TextBlock13"
+}

@@ -1,0 +1,60 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DesignerCustomizationType": "Public Sector Assessment",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "Law_Enforcement_Training_Coordinator_Interview_1",
+    "OmniProcessId": {
+        "Name": "Interview Questions for Law Enforcement Training Coordinator",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Recruitment/LawEnforcementTrainingCoordinator/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Law_Enforcement_Training_Coordinator_Interview_1_block",
+        "OmniProcessId": {
+            "Name": "Interview Questions for Law Enforcement Training Coordinator",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Recruitment/LawEnforcementTrainingCoordinator/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Recruitment/LawEnforcementTrainingCoordinator/English/Law_Enforcement_Training_Coordinator_Interview_1_block",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Law_Enforcement_Training_Coordinator_Interview_1_block",
+    "ParentElementType": "Block",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "accessibleInFutureSteps": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "debounceValue": 0,
+        "defaultValue": null,
+        "disOnTplt": false,
+        "help": false,
+        "helpText": "",
+        "hide": false,
+        "inputWidth": 12,
+        "label": "Can you briefly describe your background and experience in law enforcement training?",
+        "mask": "",
+        "maxLength": 255,
+        "minLength": 0,
+        "pattern": "",
+        "placeholder": "",
+        "ptrnErrText": "",
+        "readOnly": false,
+        "repeat": false,
+        "repeatClone": false,
+        "repeatLimit": null,
+        "required": false,
+        "show": null,
+        "showInputWidth": false
+    },
+    "Type": "Text",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Recruitment/LawEnforcementTrainingCoordinator/English/Law_Enforcement_Training_Coordinator_Interview_1"
+}

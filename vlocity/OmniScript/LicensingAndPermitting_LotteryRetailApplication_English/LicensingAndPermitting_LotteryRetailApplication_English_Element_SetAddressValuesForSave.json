@@ -1,0 +1,41 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetAddressValuesForSave",
+    "OmniProcessId": {
+        "Name": "Lottery Retail Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/LotteryRetailApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "SaveAddress": "=IF(%PhysicalAddress%==null,\"711 Bar Harbor Road, Trenton, ME, 04605, United States\",%PhysicalAddress:Address%)\n",
+            "SaveCity": "=IF(%PhysicalAddress%==null,\"Trenton\",%PhysicalAddress:City%)\n",
+            "SaveCountry": "=IF(%PhysicalAddress%==null,\"United States\",%PhysicalAddress:Country%)\n",
+            "SavePostalCode": "=IF(%PhysicalAddress%==null,\"04605\",%PhysicalAddress:PostalCode%)\n",
+            "SaveState": "=IF(%PhysicalAddress%==null,\"ME\",%PhysicalAddress:Province%)\n",
+            "SaveStreet": "=IF(%PhysicalAddress%==null,\"711 Bar Harbor Road\",%PhysicalAddress:Street%)\n"
+        },
+        "label": "SetAddressValuesForSave",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/LotteryRetailApplication/English/SetAddressValuesForSave"
+}

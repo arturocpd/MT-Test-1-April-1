@@ -1,0 +1,84 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetValues1",
+    "OmniProcessId": {
+        "Name": "ComplaintIntake",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/SPCM/ComplaintIntake/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "NewComplaint",
+        "OmniProcessId": {
+            "Name": "ComplaintIntake",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/SPCM/ComplaintIntake/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/SPCM/ComplaintIntake/English/NewComplaint",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "NewComplaint",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 2,
+        "elementValueMap": {
+            "AddAdditionalDetails": true,
+            "Allegation": {
+                "SubType": "Allegation2StubType2",
+                "Type": "Allegation1Type",
+                "concatTypeSubType": "Allegation1TypeAllegation2StubType2"
+            },
+            "ComplaintDetails": {
+                "IncidentDetails": {
+                    "IncidentDate": "2025-02-14",
+                    "LocationOfIncident": "Fountain Drive"
+                },
+                "Priority": "Low",
+                "Reporter": {
+                    "Email": "eric@mailinator.com",
+                    "FirstName": "Eric",
+                    "LastName": "Cirellii",
+                    "Phone": "9788576189",
+                    "ReporterAddress": "1779 Fountain Dr, \nReston, VA 20190",
+                    "ReporterOrganization": null
+                },
+                "Status": "Submitted",
+                "Subject": "Need for stable employment to help keep him on track"
+            },
+            "IsRunningNotesAdded": true,
+            "Participants": {
+                "HasParticipants": false,
+                "firstName": "Paul",
+                "lastName": "Marshall"
+            },
+            "ReporterCategory": "Social Worker",
+            "RequestConfidentiality": "false",
+            "RunningNotes": "Paul Marshall is receiving additional services through ACME Partners for permanent housing and custody support. One of their case managers reported that he is concerned that he will lose his current employment due to barriers of transportation and schedule conflicts with his children's schooling. ACME Partners knows that this could be a major setback for him and would like to proactively support him with finding more flexible employment or ensure we provide additional benefits such as transportation or childcare support.",
+            "isAllegation1": false,
+            "isAllegation2": false,
+            "isAllegation3": false
+        },
+        "label": "+++",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/SPCM/ComplaintIntake/English/SetValues1"
+}

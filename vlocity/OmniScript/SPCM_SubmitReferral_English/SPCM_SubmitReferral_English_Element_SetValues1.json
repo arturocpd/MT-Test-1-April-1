@@ -1,0 +1,92 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetValues1",
+    "OmniProcessId": {
+        "Name": "Submit a Referral",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/SPCM/SubmitReferral/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ReferralIntakeDetails",
+        "OmniProcessId": {
+            "Name": "Submit a Referral",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/SPCM/SubmitReferral/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/SPCM/SubmitReferral/English/ReferralIntakeDetails",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ReferralIntakeDetails",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 1,
+        "elementValueMap": {
+            "Comments": "Maria is a single mother who is pregnant with her second child.  She works a part-time job, but her income is not enough to cover all of her expenses, especially with the added costs of another child.",
+            "ReferralIntakeDetails": {
+                "AdditionalDetails": true,
+                "Assessment": {
+                },
+                "ClientDetails": {
+                    "ClientDetailsForReferral": "SearchForExistingClients",
+                    "FinalClientEmail": null,
+                    "FinalClientName": null,
+                    "FinalClientPreferredLanguage": "English",
+                    "NewClientEmail": null,
+                    "NewClientName": null,
+                    "NewClientPhone": null,
+                    "NewClientPreferredLanguage": null,
+                    "SearchClient-Block": {
+                        "ClientPreferredLanguage": "English",
+                        "SearchClient": null
+                    }
+                },
+                "Description": "Green City Food Bank is referring Maria Anderson - Single mom looking to find which programs and amount of cash assistance she is eligible for.",
+                "IsSampleAssessment1Completed": false,
+                "IsSampleAssessment2Completed": false,
+                "ReferralCategory": "Regular",
+                "ReferralDate": "2023-02-22",
+                "ReferralDetails": {
+                    "FinalReferralEmail": "tknox@mailinator.com",
+                    "FinalReferrerName": "Tina Knox",
+                    "NewReferrerEmail": "tknox@mailinator.com",
+                    "NewReferrerName": "Tina Knox",
+                    "NewReferrerOrg": "Green City Food Bank",
+                    "NewReferrerPhone": "4015553838",
+                    "ReferrerDetails": "EnterReferrerDetails",
+                    "SearchReferrer-Block": null
+                },
+                "ReferralPriority": "Medium",
+                "ReferralSource": "Phone",
+                "ReferralStatus": "New",
+                "ReferredBy": "false",
+                "ShowSampleAssessment1": false,
+                "ShowSampleAssessment2": false,
+                "Title": "Food Assistance Intake - Maria Anderson"
+            }
+        },
+        "label": ">>>",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/SPCM/SubmitReferral/English/SetValues1"
+}

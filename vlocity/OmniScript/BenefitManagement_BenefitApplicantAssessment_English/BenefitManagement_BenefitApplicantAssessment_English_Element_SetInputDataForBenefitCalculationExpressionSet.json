@@ -1,0 +1,109 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetInputDataForBenefitCalculationExpressionSet",
+    "OmniProcessId": {
+        "Name": "Benefit Applicant Assessment",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/BenefitManagement/BenefitApplicantAssessment/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "input": {
+                "AreThereChildrenInTheHousehold": "%HouseholdInformation:PSS_BM_v5_AreThereChildrenInTheHousehold%",
+                "AreThereDisabledHouseholdMembers": "%HouseholdInformation:PSS_BM_v5_AreThereDisabledHouseholdMembers%",
+                "AreThereElderlyHouseholdMembers": "%HouseholdInformation:PSS_BM_v5_AreThereElderlyHouseholdMembers%",
+                "ChildCareAmount": "%Expenses:PSS_BM_v5_ChildCareAmount%",
+                "ChildSupportAmount": "%Expenses:PSS_BM_v5_ChildSupportAmount%",
+                "GarnishmentsAmount": "%Expenses:PSS_BM_v5_GarnishmentsAmount%",
+                "InputHouseholdSize": "%HouseholdInformation:PSS_BM_v5_HouseholdSize%",
+                "InsurancePremiumAmount": "%Expenses:PSS_BM_v5_InsurancePremiumAmount%",
+                "MedicalExpensesAmount": "%Expenses:PSS_BM_v5_MedicalExpensesAmount%",
+                "PrimaryHeatType": "%HousingAndHeating:HeatingDetails:PrimaryHeatSource:PSS_BM_v5_PrimaryHeatType%",
+                "PrimaryHeatingBillAmount": "%HousingAndHeating:HeatingDetails:PrimaryHeatSource:PSS_BM_v5_PrimaryHeatingBillAmount%",
+                "ReimbursementAmount": "%Expenses:PSS_BM_v5_ReimbursementAmount%",
+                "RepresentativePayeeFees": "%Expenses:PSS_BM_v5_RepresentativePayeeFees%",
+                "SecondaryHeatType": "%HousingAndHeating:HeatingDetails:SecondaryHeatSource:PSS_BM_v5_SecondaryHeatType%",
+                "SecondaryHeatingBillAmount": "%HousingAndHeating:HeatingDetails:SecondaryHeatSource:PSS_BM_v5_DefaultSecondaryHeatingBillAmount%",
+                "SpousalSupportAmount": "%Expenses:PSS_BM_v5_SpousalSupportAmount%",
+                "TotalHouseholdIncome": "%Income:PSS_BM_v5_TotalHouseholdIncome%"
+            }
+        },
+        "label": "Set Input Data to Calculate Benefit Amount",
+        "message": {
+        },
+        "pubsub": false,
+        "show": {
+            "group": {
+                "operator": "OR",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "true",
+                        "field": "IsApplicationSubmitted"
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "=",
+                                    "data": "true",
+                                    "field": "WasApplicationReturned"
+                                },
+                                {
+                                    "condition": "<>",
+                                    "data": "true",
+                                    "field": "IsReturnedApplicationSubmitted"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "In Review",
+                                    "field": "IndividualApplicationStatus"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "PowerCustomerSuccess",
+                                    "field": "UserType"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "group": {
+                            "operator": "AND",
+                            "rules": [
+                                {
+                                    "condition": "<>",
+                                    "data": "true",
+                                    "field": "IsApplicationEdited"
+                                },
+                                {
+                                    "condition": "=",
+                                    "data": "true",
+                                    "field": "IsEditByCaseWorkerAllowed"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/BenefitManagement/BenefitApplicantAssessment/English/SetInputDataForBenefitCalculationExpressionSet"
+}

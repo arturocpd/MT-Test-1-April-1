@@ -1,0 +1,9 @@
+[
+    "DataRaptor/PSSSocInsAddClaimIdToJSON",
+    "DataRaptor/PSSSocInsCreatePrlmApplnRefForEmployerResponse",
+    "DataRaptor/PSSSocInsSaveEmployerAssessmentResponsesToPDF",
+    "IntegrationProcedure/SocialInsurance_CheckClaimResponseStatus",
+    "IntegrationProcedure/SocialInsurance_CreateIndividualApplicationForClaimResponse",
+    "IntegrationProcedure/SocialInsurance_GetContentDocumentsForEmployeeFiles",
+    "IntegrationProcedure/SocialInsurance_LoadEmployeeResponsesForVerification"
+]

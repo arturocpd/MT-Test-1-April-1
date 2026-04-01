@@ -1,0 +1,41 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetAddressValuesForSave",
+    "OmniProcessId": {
+        "Name": "Cannabis Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/CannabisApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "SaveAddress": "=IF(%Address%==null,\"4776 Commercial Drive,New Hartford,NY,13413,United States\",%Address:Address%)\n",
+            "SaveCity": "=IF(%Address%==null,\"New Hartford\",%Address:City%)\n",
+            "SaveCountry": "=IF(%Address%==null,\"United States\",%Address:Country%)\n",
+            "SavePostalCode": "=IF(%Address%==null,\"13413\",%Address:PostalCode%)\n",
+            "SaveState": "=IF(%Address%==null,\"NY\",%Address:Province%)\n",
+            "SaveStreet": "=IF(%Address%==null,\"4776 Commercial Drive\",%Address:Street%)\n"
+        },
+        "label": "SetAddressValuesForSave",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/CannabisApplication/English/SetAddressValuesForSave"
+}

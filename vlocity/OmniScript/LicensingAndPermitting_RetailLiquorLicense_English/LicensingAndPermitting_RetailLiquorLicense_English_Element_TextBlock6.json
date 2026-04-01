@@ -1,0 +1,42 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "TextBlock6",
+    "OmniProcessId": {
+        "Name": "Retail Liquor License Application",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/RetailLiquorLicense/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Documentation",
+        "OmniProcessId": {
+            "Name": "Retail Liquor License Application",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/RetailLiquorLicense/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/RetailLiquorLicense/English/Documentation",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Documentation",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "TextBlock6",
+        "sanitize": false,
+        "show": null,
+        "text": "<p>Please provide the following documentation to complete the full application:</p>\n<ol>\n<li>Diagram of the Premises\n<ul>\n<li>Dimensions included, Exterior areas should show type of control (fences, walls, entry/exit points etc.) and a seprate diagram for each floor.</li>\n</ul>\n</li>\n<li>Proof of Property Possession (Deed in name of applicat)</li>\n<li>Background Information and Financial Documents\n<ul>\n<li>Individual History Record(s) <a href=\"https://sbg.colorado.gov/sites/sbg/files/documents/DR_8404I.pdf\" target=\"_blank\" rel=\"noopener\">Form DR 84041-1</a>&nbsp; for each individual/principal of the establishment</li>\n<li>Fingerprints taken and submitted to the appropriate Local Licensing Authority.&nbsp; Vendors includes the following:\n<ul>\n<li>IdentoGO &ndash;&nbsp;<a href=\"https://uenroll.identogo.com/\">https://uenroll.identogo.com/</a>\n<ul>\n<li>Phone: (844) 539-5539 (toll-free)</li>\n</ul>\n</li>\n<li>State Fingerprinting &ndash; <a href=\"https://www.coloradofingerprinting.com/\" target=\"_blank\" rel=\"noopener\">http://www.statefingerprinting.com</a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ol>\n<p>If you do not have the documentation available at this point you will be provided the ability to upload them at a later time however, the Application will not be processed until all the information is provided and the application fees are paid.</p>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/RetailLiquorLicense/English/TextBlock6"
+}

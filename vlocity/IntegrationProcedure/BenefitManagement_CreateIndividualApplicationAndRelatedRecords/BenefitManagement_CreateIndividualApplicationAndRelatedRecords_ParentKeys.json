@@ -1,0 +1,7 @@
+[
+    "DataRaptor/PSSExpCloudCreateIndividualApplicationAndCase1",
+    "DataRaptor/PSSExpCloudGetPersonAccountIDOfApplicant1",
+    "DataRaptor/PSSTransformAssessmentQuestionResponseName3",
+    "DataRaptor/PSSUpdatePreliminaryApplicationReference3",
+    "IntegrationProcedure/BenefitManagement_ModifyReturnedIndividualApplication"
+]

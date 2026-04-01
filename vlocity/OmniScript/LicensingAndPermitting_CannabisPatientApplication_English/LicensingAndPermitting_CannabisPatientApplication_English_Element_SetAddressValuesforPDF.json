@@ -1,0 +1,43 @@
+{
+    "CurrencyIsoCode": "USD",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "SetAddressValuesforPDF",
+    "OmniProcessId": {
+        "Name": "Patient Medical Cannabis",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/LicensingAndPermitting/CannabisPatientApplication/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "elementValueMap": {
+            "PDFPatientCity": "=IF(%PatientAddress%==null,%HoldPatientCity%,%PatientAddress:City%)\n",
+            "PDFPatientPostalCode": "=IF(%PatientAddress%==null,%HoldPatientPostalCode%,%PatientAddress:PostalCode%)\n",
+            "PDFPatientState": "=IF(%PatientAddress%==null,%HoldPatientState%,%PatientAddress:Province%)\n",
+            "PDFPatientStreet": "=IF(%PatientAddress%==null,%HoldPatientStreet%,%PatientAddress:Street%)\n",
+            "PDFPractionerCity": "=IF(%PractionerAddress%==null,\"Washington\",%PractionerAddress:City%)\n",
+            "PDFPractionerPostalCode": "=IF(%PractionerAddress%==null,\"20009\",%PractionerAddress:PostalCode%)\n",
+            "PDFPractionerState": "=IF(%PractionerAddress%==null,\"DC\",%PractionerAddress:Province%)\n",
+            "PDFPractionerStreet": "=IF(%PractionerAddress%==null,\"1737 20th Street Northwest\",%PractionerAddress:Street%)\n"
+        },
+        "label": "SetAddressValuesforPDF",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            true,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Set Values",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/LicensingAndPermitting/CannabisPatientApplication/English/SetAddressValuesforPDF"
+}

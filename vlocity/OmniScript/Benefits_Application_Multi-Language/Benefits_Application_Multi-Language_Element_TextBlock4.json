@@ -1,0 +1,43 @@
+{
+    "CurrencyIsoCode": "USD",
+    "DiscoveryFrameworkUsageType": "Default",
+    "IsActive": true,
+    "IsLocked": false,
+    "IsOmniScriptEmbeddable": false,
+    "MayEdit": true,
+    "Name": "TextBlock4",
+    "OmniProcessId": {
+        "Name": "Application for Aging / Disability Services",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Benefits/Application/Multi-Language",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "InformationStep",
+        "OmniProcessId": {
+            "Name": "Application for Aging / Disability Services",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Benefits/Application/Multi-Language",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Benefits/Application/Multi-Language/InformationStep",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "InformationStep",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "",
+        "sanitize": false,
+        "show": null,
+        "text": "<p>The contribution supports the costs for the care work carried out by social health workers, family members or family assistants, or social health personnel and for the purchase of services such as remote assistance and the delivery of meals at the home.<br />The contribution is paid on individual request and on the basis of an individualized project for each elderly sick person, taking into account the different health and social needs and the interventions that can be activated at home. The project and the contribution are updated annually by signing an assistance project and are reconfirmed upon disbursement of regional funds.<br /><br />Once the application has been submitted, an inspection will be carried out at the home of the elderly by the special commission, composed of a doctor and a social worker from the Municipality. The Geriatric Assessment Unit ascertains the non self-sufficiency of the elderly and assesses their health, welfare and social needs.<br />On the basis of the evaluation carried out, a score is assigned for each individual situation, which allows the inclusion of those entitled to a specific waiting list. The procedure is the same also for residential and semi-residential interventions of non self-sufficient elderly</p>",
+        "textKey": "TextBlock4"
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Benefits/Application/Multi-Language/TextBlock4"
+}

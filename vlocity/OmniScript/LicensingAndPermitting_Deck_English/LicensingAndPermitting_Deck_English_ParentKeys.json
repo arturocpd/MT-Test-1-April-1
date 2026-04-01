@@ -1,0 +1,6 @@
+[
+    "DataRaptor/DRGetApplicationId",
+    "DataRaptor/LPIGetContactDetailsforDeckPermit",
+    "DataRaptor/LPIMapDeckApplicationPDF",
+    "DataRaptor/LPISaveDeckApplication"
+]
